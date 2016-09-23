@@ -1,4 +1,4 @@
-!  -----update:  2016-9-22 21:43:02
+!  -----update:  2016-9-23 13:00
 @@|http://$domain=taobao.com|taobao.org|alipay.com|suning.com|51buy.com|ct10000.com|etao.com|hitao.com|paipai.com|yeepay.com|taoke.alimama.com|club.alimama.com|tenpay.com|tmall.com|tbcdn.cn|jd.com|jifen.qq.com|meishichina.com|vip.xunlei.com|lixian.xunlei.com|www.vmall.com|www.1688.com|www.mm111.net|www.fanxian.com|www.cmbchina.com|alibaba.com|meidebi.com|lifevc.com|gome.com.cn|ad.alimama.com|www.alimama.com|189.cn|3songshu.com|pili.com.tw|chinahr.com
 @@|http://*&username=400gb&adsid=
 @@|http://*.com/adsafe
@@ -1118,7 +1118,7 @@
 |http://am.cupid.iqiyi.com/am
 |http://aoodoo.feng.com/view.php?what=zone:41&n=
 |http://apas.aipai.com/www/delivery
-|http://api.bilibili.com/x/web-show/res/loc?callback=jQuery*&pf=0&id=*&jsonp=jsonp&_=
+!|http://api.bilibili.com/x/web-show/res/loc?callback=jQuery*&pf=0&id=*&jsonp=jsonp&_=
 |http://api.bilibili.com/x/web-show/res/loc?pf=0&id=*&aid=
 |http://api.bilibili.com/x/web-show/res/locs?jsonp=jsonp&pf=0&ids=*&callback=jQuery
 |http://api.cupid.iqiyi.com/show2?a=qc_100001_100329&
@@ -4398,3 +4398,7 @@ anywlan.com##.bscekvofc_o.wp
 ||http://bbs.feng.com/$s@<div class="wrap fl_row">@<div style="display:none">@
 !--------------------------------------- custom rules --------------------------------------------
 ||v.qq.com/x/webtips?$subdocument
+!bilibili.com##div[style="display: block; overflow: hidden; border-radius: 5px; margin: 0px auto 10px; position: relative; top: -10px; width: 1160px; height: 96px;"]
+||imgsrc.baidu.com/forum/pic/item/0bcf9c82251dca8d6c8119ed.jpg?v=tbs
+!tieba.baidu.com##.video_list
+!tieba.baidu.com##.j_video_list_wrap.video_list_wrap
