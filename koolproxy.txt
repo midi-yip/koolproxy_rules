@@ -1,4 +1,4 @@
-!  -----update:  2016-9-23 13:00
+!  -----update:  2016-9-23 19:48
 @@|http://$domain=taobao.com|taobao.org|alipay.com|suning.com|51buy.com|ct10000.com|etao.com|hitao.com|paipai.com|yeepay.com|taoke.alimama.com|club.alimama.com|tenpay.com|tmall.com|tbcdn.cn|jd.com|jifen.qq.com|meishichina.com|vip.xunlei.com|lixian.xunlei.com|www.vmall.com|www.1688.com|www.mm111.net|www.fanxian.com|www.cmbchina.com|alibaba.com|meidebi.com|lifevc.com|gome.com.cn|ad.alimama.com|www.alimama.com|189.cn|3songshu.com|pili.com.tw|chinahr.com
 @@|http://*&username=400gb&adsid=
 @@|http://*.com/adsafe
@@ -222,6 +222,7 @@
 @@|http://www.aszw520.com/heibing/js/xiaoshuo.js
 @@||bahamut.com.tw/JS/ad/animeVideo.js
 @@||chuiyao.com/static/js*/pinglun.js?v=
+@@||http://www.163.com/newsapp/#f=endnav
 |http:/*/7mad.$image
 |http:/*/adPicture$image
 |http:/*/adfile$domain=~abchina.com
@@ -4379,6 +4380,7 @@ anywlan.com##.bscekvofc_o.wp
 !---- muchong.com ----
 ||muchong.com/bbs/$s@<div class="wrapper adtable">@<div style="display:none">@
 ||muchong.com/bbs/$s@<a href="adlog.php?adid=*" class="" target="_blank">@<div style="display:none">@
+||muchong.com/$s@<div class="hot-pic mt20">@<div style="display:none">@
 !-------------------------------------------------- fuck -----------------------------------------------------------------------
 !||www.baidu.com/$s@='{"fm":"pp", "p1":*}'@="" style="display:none !important;"@
 !||www.baidu.com/$s@='{"fm":"ppim", "p1":*}'@="" style="display:none !important;"@
