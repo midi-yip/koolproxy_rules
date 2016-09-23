@@ -1,4 +1,4 @@
-!  -----update:  2016-9-23 20:39
+!  -----update:  2016-9-23 21:15
 @@|http://$domain=code.google.com|yeepay.com|taoke.alimama.com|club.alimama.com|tenpay.com|tmall.com|tbcdn.cn|jd.com
 @@|http://$domain=meidebi.com|alibaba.com|lifevc.com|ad.alimama.com|www.alimama.com|gome.com.cn|3songshu.com
 @@|http://$domain=meishichina.com|vip.xunlei.com|lixian.xunlei.com|www.vmall.com|www.1688.com|www.mm111.net|jifen.qq.com
@@ -4405,3 +4405,5 @@ anywlan.com##.bscekvofc_o.wp
 ||imgsrc.baidu.com/forum/pic/item/0bcf9c82251dca8d6c8119ed.jpg?v=tbs
 !tieba.baidu.com##.video_list
 !tieba.baidu.com##.j_video_list_wrap.video_list_wrap
+||/http:\/\/[^\/]+\.(youku|tudou|ku6|i?qiyi|le(tv)?|lecloud|pptv|pps|sina|sohu|56)[^.]*?\.(com(\.cn)?|tv)\/crossdomain\.xml/
+||http://www.iqiyi.com/dianshiju/$s@<div id="1000000000123" class="ad-wrapper clearfix">@<div style="display:none">@
