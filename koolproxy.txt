@@ -1,4 +1,4 @@
-!  -----update:  2016-9-24 15:35
+!  -----update:  2016-9-24 18:35
 @@|http://$domain=code.google.com|yeepay.com|taoke.alimama.com|club.alimama.com|tenpay.com|tmall.com|tbcdn.cn|jd.com
 @@|http://$domain=meidebi.com|alibaba.com|lifevc.com|ad.alimama.com|www.alimama.com|gome.com.cn|3songshu.com
 @@|http://$domain=meishichina.com|vip.xunlei.com|lixian.xunlei.com|www.vmall.com|www.1688.com|www.mm111.net|jifen.qq.com
@@ -107,6 +107,7 @@
 @@|http://tajs.qq.com/stats?sId=
 @@|http://tb1.bdstatic.com/*.css
 @@|http://v.aty.sohu.com/ct?vid=
+@@|http://v.aty.sohu.com/v$object-subrequest
 @@|http://v.gdt.qq.com/gdt_stats.fcg?
 @@|http://wn.pos.baidu.com/adx.php?c=$domain=400gb.com|pipipan.com|bego.cc
 @@|http://wvw.9377.com/api/qq.php
@@ -226,6 +227,9 @@
 @@|http://www.77vcd.com/js/player/common.js
 @@|http://*.com/index0data/*.css
 @@|http://i2.bahamut.com.tw/JS/ad/animeVideo.js
+@@|http://hc.yinyuetai.com/partner/yyt/
+@@||atm.youku.com/v$object-subrequest
+@@||atm.youku.com/crossdomain.xml
 |http:/*/7mad.$image
 |http:/*/adPicture$image
 |http:/*/adfile$domain=~abchina.com
@@ -1374,7 +1378,6 @@
 |http://hackp.com/images/tienei.js$script
 |http://hackp.com/xiaojiu/$script
 |http://hao.360.cn/festival_shuang11.html
-|http://hc.yinyuetai.com/partner/yyt/
 |http://hdp.sfcdn.org/poster/exitpic$image
 |http://health.t56.net/index.php?m=poster&c=index&a=show_poster&id=
 |http://henan.sina.com.cn/iframe/7/
@@ -1730,6 +1733,7 @@
 |http://playad.xjmg.com
 |http://player.bumimi.com:806/all.gif
 |http://pmm.people.com.cn
+|http://v.aty.sohu.com/v
 ||api.cupid.iqiyi.com/policy2
 ||mixer.video.iqiyi.com/jp/mixin/resources/
 !||qiyu.iqiyi.com/crossdomain.xml
@@ -1879,6 +1883,7 @@ m.iqiyi.com##div#shortcut,div.banner_inner.bd-large.aaaa,div.appBar
 |http://static.hd.baofeng.com/script/baidu_4790.js
 |http://static.hd.baofeng.com/script/play_4790.js
 |http://static.hdslb.com/js/core-v5/picment.min.js
+|http://static.hdslb.com/sohu.swf
 |http://static.icili.com/cpma.js$script
 |http://static.ikafan
 |http://static.imanke.com/imanke/m/t.js?v=
