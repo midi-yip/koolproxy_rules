@@ -1,9 +1,10 @@
-!  -----update:  2016-9-23 21:15
+!  -----update:  2016-9-24 15:35
 @@|http://$domain=code.google.com|yeepay.com|taoke.alimama.com|club.alimama.com|tenpay.com|tmall.com|tbcdn.cn|jd.com
 @@|http://$domain=meidebi.com|alibaba.com|lifevc.com|ad.alimama.com|www.alimama.com|gome.com.cn|3songshu.com
 @@|http://$domain=meishichina.com|vip.xunlei.com|lixian.xunlei.com|www.vmall.com|www.1688.com|www.mm111.net|jifen.qq.com
 @@|http://$domain=taobao.com|taobao.org|alipay.com|suning.com|51buy.com|ct10000.com|etao.com|hitao.com|paipai.com|189.cn
 @@|http://$domain=banggo.com|pili.com.tw|yunhou.com|voicecloud.cn|xunfei.cn
+@@|http://img.vip.xunlei.com/
 @@|http://*&username=400gb&adsid=
 @@|http://*.org/admin$image
 @@|http://*/ad_js.php?aid=10004
@@ -1242,7 +1243,7 @@
 |http://content.s8bbs.com/g.php?id=
 |http://cop.my
 |http://copy.ousns$image,object,object-subrequest
-|http://count.vrs.sohu.com/crossdomain.xml
+!|http://count.vrs.sohu.com/crossdomain.xml
 |http://cpro.$domain=~www.epinv.com
 |http://cpv.channelray
 |http://cr.15hn.net:8818/lb.asp
@@ -1731,7 +1732,7 @@
 |http://pmm.people.com.cn
 ||api.cupid.iqiyi.com/policy2
 ||mixer.video.iqiyi.com/jp/mixin/resources/
-||qiyu.iqiyi.com/crossdomain.xml
+!||qiyu.iqiyi.com/crossdomain.xml
 ||www.iqiyi.com/player/cupid/common/icon_exclusive.swf
 |http://policy.cupid.qiyi.com/policy2?a=qc_100001_$domain=~iqiyi.com|~v.pps.tv
 m.iqiyi.com##div#shortcut,div.banner_inner.bd-large.aaaa,div.appBar
@@ -1995,12 +1996,11 @@ m.iqiyi.com##div#shortcut,div.banner_inner.bd-large.aaaa,div.appBar
 |http://v.tf.360.cn
 |http://v2html.atm.youku.com/vhtml?p=320&ct=
 |http://valb.atm.youku.com/vb?vip=0&site=1
-|http://valc.atm.youku.com/
-|http://valf.atm.youku.com/crossdomain.xml
+!|http://valf.atm.youku.com/crossdomain.xml
 |http://valf.atm.youku.com/mshow?v=
 |http://valf.atm.youku.com/vf?vip=0&site=1$~image
 |http://valf.atm.youku.com/vf?vip=0&uk=
-|http://valp.atm.youku.com
+!|http://valp.atm.youku.com
 |http://vas.funshion.com
 |http://vasd.fun.tv/Wkw.php
 |http://vda.fh77.net/$third-party
@@ -2708,7 +2708,7 @@ m.iqiyi.com##div#shortcut,div.banner_inner.bd-large.aaaa,div.appBar
 |http://yanu.qiniudn.com/760x90.gif
 |http://yes1.feng.com/js.php?n=
 |http://yirongdao.com/template/default/ads/head.js
-|http://yk.pp.navi.youku.com/crossdomain.xml
+!|http://yk.pp.navi.youku.com/crossdomain.xml
 |http://yk.pp.navi.youku.com/playpolicy/get.json?
 |http://yui.honglei.net/52/adphoto/
 |http://zalra.cn/wp-content/uploads/2014/05/xs009.jpg
@@ -3856,7 +3856,7 @@ m.iqiyi.com##div#shortcut,div.banner_inner.bd-large.aaaa,div.appBar
 ||qiqiww.com
 ||qiyipic.com/common/ad/
 ||qiyou.com
-||qiyu.iqiyi.com/crossdomain.xml
+!||qiyu.iqiyi.com/crossdomain.xml
 ||qizhao.com
 ||qling.com
 ||qm92.com$third-party
@@ -4056,6 +4056,7 @@ m.iqiyi.com##div#shortcut,div.banner_inner.bd-large.aaaa,div.appBar
 ||tunka.com.cn/images/1234.gif
 ||tv.sohu.com/interaction/get/getListByVid.do
 ||tv.sohu.com/upload/Trace/$script
+||js.tv.itc.cn/gg.seed.js
 ||tv.sohu.com/upload/advert/sohuhd.ad.js
 ||tv.sohu.com/upload/static/global/hdpv.js
 ||tvf4.com/*.htm$subdocument
@@ -4351,8 +4352,6 @@ m.iqiyi.com##div#shortcut,div.banner_inner.bd-large.aaaa,div.appBar
 ||caches.space/bootstrap3/js/bootstrap.js
 |http://www.jd.com/*$r@http://www.jd.com/*@https://www.jd.com/*@
 ||www.163.com/special/00774IMC/lofter_v13.html
-||http://tv.sohu.com/upload/swf/20160908/Main.swf$r@http://entware.mirrors.ligux.com/adblock/swf/sohu_live.swf@http://entware.mirrors.ligux.com/adblock/swf/sohu_live.swf@
-!||tv.sohu.com/upload/swf/.*?/PlayerShell.swf\?$r@http://tv.sohu.com/upload/swf/.*?/PlayerShell.swf@http://update.adbyby.com/swf/sohu_livezb.swf@
 ||pl.youku.com/playlist/m3u8\?keyframe=0&$r@pl.youku.com/playlist/m3u8\?keyframe=0&.*@update.adbyby.com/youku.m3u8@
 ||hot.vrs.sohu.com/vrs_flash.action\?vid=$r@&plid=\d+&uid=@&plid=7038006&uid=@
 !----- pcbeta -----
@@ -4405,5 +4404,5 @@ anywlan.com##.bscekvofc_o.wp
 ||imgsrc.baidu.com/forum/pic/item/0bcf9c82251dca8d6c8119ed.jpg?v=tbs
 !tieba.baidu.com##.video_list
 !tieba.baidu.com##.j_video_list_wrap.video_list_wrap
-||/http:\/\/[^\/]+\.(youku|tudou|ku6|i?qiyi|le(tv)?|lecloud|pptv|pps|sina|sohu|56)[^.]*?\.(com(\.cn)?|tv)\/crossdomain\.xml/
+!||/http:\/\/[^\/]+\.(youku|tudou|ku6|i?qiyi|le(tv)?|lecloud|pptv|pps|sina|sohu|56)[^.]*?\.(com(\.cn)?|tv)\/crossdomain\.xml/
 ||http://www.iqiyi.com/dianshiju/$s@<div id="1000000000123" class="ad-wrapper clearfix">@<div style="display:none">@
