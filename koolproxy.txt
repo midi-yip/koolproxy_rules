@@ -1,4 +1,4 @@
-!  -----update:  2016-9-24 18:35
+!  -----update:  2016-9-24 20:45
 @@|http://$domain=code.google.com|yeepay.com|taoke.alimama.com|club.alimama.com|tenpay.com|tmall.com|tbcdn.cn|jd.com
 @@|http://$domain=meidebi.com|alibaba.com|lifevc.com|ad.alimama.com|www.alimama.com|gome.com.cn|3songshu.com
 @@|http://$domain=meishichina.com|vip.xunlei.com|lixian.xunlei.com|www.vmall.com|www.1688.com|www.mm111.net|jifen.qq.com
@@ -328,7 +328,6 @@
 |http://*.com/?q=$domain=torrentkitty.la|diggbt.net|btkitty.biz|btkitty.uno|cishuge.com
 |http://*.com/?q=*|*
 |http://*.com/?ss=*_*_
-|http://*.com/?uid=*|*|*
 |http://*.com/AShow.aspx?AID=$script
 |http://*.com/aajjss/$script
 |http://*.com/ad-
@@ -756,7 +755,6 @@
 |http://*/info.js?sn=ads
 |http://*/inner_center1
 |http://*/intf/bbs_expert
-|http://img1.cache.netease.com/f2e/www/index2014/images/*.png
 |http://*/ja486$image,object,object-subrequest
 |http://*/jbk.gif$image
 |http://*/js/1.htm
@@ -4396,7 +4394,6 @@ anywlan.com##.bscekvofc_o.wp
 ||v.ku6.com/*.html$s@/player.swf'@/player.swf?adss=0'@
 ||ku6.com/*.html$s@adss:1@adss:0@
 |http://ad.api.3g.tudou.com/adv?dprm=$s@{"P":*,"@{"P":0,"@
-||img1.cache.netease.com/f2e/www/index2014/images/*.png
 ||http://www.163.com/special/00774IMC/lofter_v13.html
 |http://yes1.feng.com/x.js
 ||yes1.feng.com/view.php?what=zone:*
@@ -4411,3 +4408,14 @@ anywlan.com##.bscekvofc_o.wp
 !tieba.baidu.com##.j_video_list_wrap.video_list_wrap
 !||/http:\/\/[^\/]+\.(youku|tudou|ku6|i?qiyi|le(tv)?|lecloud|pptv|pps|sina|sohu|56)[^.]*?\.(com(\.cn)?|tv)\/crossdomain\.xml/
 ||http://www.iqiyi.com/dianshiju/$s@<div id="1000000000123" class="ad-wrapper clearfix">@<div style="display:none">@
+|http://ark.le.com/
+|http://ark.letv.com/
+||scorecardresearch.com^$third-party
+||wrating.com^$third-party,domain=~tudou.com
+|http://fz.letv.com/
+||letvimg.com/$object,object-subrequest
+||irs01.net/$third-party
+*/stat.$domain=~chouti.com
+||webp2p.letv.com/
+||stat.
+||my.le.com/
