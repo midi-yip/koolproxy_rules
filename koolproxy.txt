@@ -1,11 +1,11 @@
-!  -----update:  2016-9-25 18:00 -- by houzi
+!  -----update:  2016-9-26 22:00 -- by houzi
 !  -----base: adblock <koolproxy dedicated>
-!  -----thanks: /zt、xwhyc、CJX
+!  -----thanks: /zt whyc CJX
 @@|http://$domain=code.google.com|yeepay.com|taoke.alimama.com|club.alimama.com|tenpay.com|tmall.com|tbcdn.cn|jd.com
 @@|http://$domain=meidebi.com|alibaba.com|lifevc.com|ad.alimama.com|www.alimama.com|gome.com.cn|3songshu.com
 @@|http://$domain=meishichina.com|vip.xunlei.com|lixian.xunlei.com|www.vmall.com|www.1688.com|www.mm111.net|jifen.qq.com
 @@|http://$domain=taobao.com|taobao.org|alipay.com|suning.com|51buy.com|ct10000.com|etao.com|hitao.com|paipai.com|189.cn
-@@|http://$domain=banggo.com|pili.com.tw|yunhou.com|voicecloud.cn|xunfei.cn
+@@|http://$domain=banggo.com|pili.com.tw|yunhou.com|voicecloud.cn|xunfei.cn|pub.alimama.com
 @@|http://img.vip.xunlei.com/
 @@|http://hudong.pl.youku.com/crossdomain.xml
 @@|http://hudong.pl.youku.com/interact/live/get/live
@@ -411,7 +411,6 @@
 |http://*.com/ss.php?u=$third-party
 |http://*.com/template/default/ads/$script
 |http://*.com/tu/$script
-|http://*.com/union/$script
 |http://*.com/vShow.php?id=
 |http://*.com/view.php?uid=
 |http://*.com/webad/
@@ -1530,7 +1529,7 @@
 |http://js.tudouui.com/bin/lingtong/app_$object,object-subrequest
 |http://js.tudouui.com/bin/lingtong/app_4.jpg
 |http://js.tuscdn.com
-|http://js.tv.itc.cn/gg.seed.js$script
+!|http://js.tv.itc.cn/gg.seed.js$script
 |http://js.xycnz.com
 |http://js.youxi369.com/369$script
 |http://js.youxi369.com/down.js$script
@@ -3586,8 +3585,6 @@
 ||miaozhen.com/
 ||mibind.chat.gslb.mi-idc.com
 ||mm.admob.com
-||mmstat.com$third-party
-||mmstat.com
 ||mnwan.com
 ||moe.la/images/banner/$image
 ||moogos.com/js/$script
@@ -4274,7 +4271,7 @@
 ||http://tv.sohu.com/upload/swf/20160908/Main.swf$r@http://entware.mirrors.ligux.com/adblock/swf/sohu_live.swf@http://entware.mirrors.ligux.com/adblock/swf/sohu_live.swf@
 !||tv.sohu.com/upload/swf/.*?/PlayerShell.swf\?$r@http://tv.sohu.com/upload/swf/.*?/PlayerShell.swf@http://update.adbyby.com/swf/sohu_livezb.swf@
 ||hot.vrs.sohu.com/vrs_flash.action\?vid=$r@&plid=\d+&uid=@&plid=7038006&uid=@
-||/http:\/\/[^\/]+\.(youku|tudou|ku6|i?qiyi|le(tv)?|lecloud|pptv|pps|sina|sohu|56)[^.]*?\.(com(\.cn)?|tv)\/crossdomain\.xml/
+!||/http:\/\/[^\/]+\.(youku|tudou|ku6|i?qiyi|le(tv)?|lecloud|pptv|pps|sina|sohu|56)[^.]*?\.(com(\.cn)?|tv)\/crossdomain\.xml/
 ! ----QQ LIVE----
 |http://ra.gtimg.com/sc/vqq/crystal-min.js$domain=v.qq.com
 v.qq.com##div.pop_ads_wide,div#QQlive_SP_RM.l_qq_com,DIV[class^="mod_ads mod_ads_main_"],iframe[src="http://games.qq.com/playgame/videoweb/videoweb.htm"],div[class^="mod_float_"],div.mod_ad,div.site_bg.site_bg_variety,.player_bg_ad,.jmodule.module-image,.top_banner,.mod_ads_play
@@ -4349,6 +4346,11 @@ pptv.com##div.ad.sp,.re_980.sp_h90,[tj_id^="www_adv"],.module-video2016-ppdownlo
 ||17173cdn.com^*/flash/OnLineTime.swf
 ||17173cdn.com^*/if/
 ||ad.17173.com^
+! ----56----
+||56.com/js/promo/
+||56ads.com/js/main.js
+||56img.com^*/baidu-promotion.js
+||56img.com^*/search-engine-promotion.js
 !----------------- video filter ----------------------
 !----------------- sina app----------------------
 ||sdkapp.mobile.sina.cn
