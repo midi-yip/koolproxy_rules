@@ -1,4 +1,4 @@
-!  -----update:  2016-9-26 22:00 -- by houzi
+!  -----update:  2016-9-27 12:00 -- by houzi
 !  -----base: adblock <koolproxy dedicated>
 !  -----thanks: /zt whyc CJX
 @@|http://$domain=code.google.com|yeepay.com|taoke.alimama.com|club.alimama.com|tenpay.com|tmall.com|tbcdn.cn|jd.com
@@ -2609,7 +2609,6 @@
 |http://zx.cp.ifeng.com/export/js/ifeng_sport_lottery_channel_pic.js$script
 |http://zzimg.51.la^
 |http://graph.qq.com/$s@</html>@<script>document.getElementById('select_all').click();</script></html>@
-|http://msdk.qq.com/auth$s@abcc@abcc@
 |http://livew.l.qq.com/livemsg*&ad_type=$s@<duration>*000</duration>@@
 |http://livew.l.qq.com/livemsg*&ad_type=$s@{"adList":@{"":@
 |uvcourse.net
