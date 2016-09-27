@@ -1,4 +1,4 @@
-!  -----update:  2016-9-27 12:00 -- by houzi
+!  -----update:  2016-9-27 17:54 -- by houzi
 !  -----base: adblock <koolproxy dedicated>
 !  -----thanks: /zt whyc CJX
 @@|http://$domain=code.google.com|yeepay.com|taoke.alimama.com|club.alimama.com|tenpay.com|tmall.com|tbcdn.cn|jd.com
@@ -1055,7 +1055,6 @@
 |http://ac.laonanren.com/oldman/ny.js$script
 |http://ac168.info/bt/ts.js$script
 |http://acg.gamersky.com/gsinc/content_bg.js$script
-|http://acs.
 |http://ad.$third-party
 |http://ad.168f.info/
 |http://ad.321tq.com
