@@ -1,4 +1,4 @@
-!  -----update:  2016-9-27 17:54 -- by houzi
+!  -----update:  2016-9-27 21:15 -- by houzi
 !  -----base: adblock <koolproxy dedicated>
 !  -----thanks: /zt whyc CJX
 @@|http://$domain=code.google.com|yeepay.com|taoke.alimama.com|club.alimama.com|tenpay.com|tmall.com|tbcdn.cn|jd.com
@@ -6,6 +6,12 @@
 @@|http://$domain=meishichina.com|vip.xunlei.com|lixian.xunlei.com|www.vmall.com|www.1688.com|www.mm111.net|jifen.qq.com
 @@|http://$domain=taobao.com|taobao.org|alipay.com|suning.com|51buy.com|ct10000.com|etao.com|hitao.com|paipai.com|189.cn
 @@|http://$domain=banggo.com|pili.com.tw|yunhou.com|voicecloud.cn|xunfei.cn|pub.alimama.com
+@@||pingjs.qq.com/ping.js
+@@||pingjs.qq.com/ping_tcss_ied.js$domain=dnf.qq.com
+@@||pingjs.qq.com/ping_tcss_ied.js$domain=lol.qq.com
+@@||l.qq.com/lview?$domain=888.sports.qq.com
+@@||btrace.video.qq.com/kvcollect$domain=v.qq.com
+@@||imgcache.qq.com/qqlive/*
 @@|http://img.vip.xunlei.com/
 @@|http://hudong.pl.youku.com/crossdomain.xml
 @@|http://hudong.pl.youku.com/interact/live/get/live
@@ -4177,51 +4183,43 @@
 |http://am.cupid.iqiyi.com/am
 |http://api.cupid.iqiyi.com/show2?a=qc_100001_100329&
 |http://api.cupid.iqiyi.com/show2?u=*&a=qc_100001_300144
-|http://cbjs.$script,domain=~www.colafile.com|~61.iqiyi.com|~61.hz.letv.com|~play.v.61.com|~7958.com|~www.u148.net|~www.redocn.com|~www.narutom.com|~tiexue.net|~xdf.cn|~666ccc.com|~www.epinv.com
+|http://api.cupid.qiyi.com/policy2?a=qc_100001_
+|http://cbjs.$script,domain=~www.colafile.com|~61.iqiyi.com|~61.hz.letv.com|~play.v.61.com|~7958.com|~www.u148.net|~www.redocn.com|~www.narutom.com|~tiexue.net|~xdf.cn
+|http://dispatcher.video.qiyi.com/dispn/iamo.swf
 |http://iface.iqiyi.com/api/getNewAdInfo?key=
 |http://nl.rcd.iqiyi.com/cro
+|http://qvod.1080qiyi.top/js/hds/$script
+|http://static.qiyi.com/css/common/index/skinAd.css
 |http://t7z.cupid.iqiyi.com/show2?*&a=qc_100001_300144&
+|http://t7z.cupid.iqiyi.com/show2?a=qc_100001_100329&
 |http://www.iqiyi.com/common/clientPopLstyle.html
 ||api.cupid.iqiyi.com/policy2
+||api.cupid.qiyi.com/show2
+||data.video.qiyi.com/videos/other
 ||mixer.video.iqiyi.com/jp/mixin/resources/
 ||qiyu.iqiyi.com/crossdomain.xml
 ||www.iqiyi.com/player/cupid/common/icon_exclusive.swf
-|http://policy.cupid.qiyi.com/policy2?a=qc_100001_$domain=~iqiyi.com|~v.pps.tv
-|http://www.iqiyi.com/*.html?key=$f@s@\.html\?key=.*@.html@
-||iqiyi.com/$s@&cpnv=1.0@@
 ^http://www.iqiyi.com/common/flashplayer/\d{8}\/\w{32}\.swf
-|http://policy.video.iqiyi.com/qiyi-flash.policy?ran=
-|http://www.iqiyi.com/player/cupid/common/icon_exclusive.swf
 |http://iface2.iqiyi.com/php/xyz/entry/$s@"ad_str":@"":@
 ||cupid.iqiyi.com/mixer?a*=qc_100001_100
-|http://www.iqiyi.com/player/cupid/common/skipgg_zz.swf
+||qiyipic.com/common/ad/
 |http://cache.m.iqiyi.com/jp/tmts/$s@,"ad":1,@,"ad":0,@
 |http://api.cupid.iqiyi.com/mixer
+!||cupid.iqiyi.com/show2?a=qc_100001_100
 ||cupid.iqiyi.com/show2?a=qc_100001_100$s@"i":"qc_100001_100???",@"i":"qc_100001_100141",@
 ||cupid.iqiyi.com/show2?a=qc_100001_$s@"a":[{"ds":1,"p":73,*}]}],"inv":@"a":[]}],"inv":@
+|http://api.cupid.qiyi.com/show2$s@"adxTracking"@""@
 |http://www.iqiyi.com/crossdomain.xml$s@<allow-access-from domain="?.qiyi.com"/>@<allow-access-from domain="*"/>@
+!|http://data.video.qiyi.com/crossdomain.xml$s@<allow-access-from domain="?.qiyi.com"/>@<allow-access-from domain="*"/>@
 ||iqiyi.com/$s@cid=qc_100001_100???@cid=qc_100001_100141@
 ||iqiyi.com/$s@cid=&@cid=qc_100001_100141&@
+|http://t7z.cupid.iqiyi.com/mixer*=qc_100001_$s@"i":"qc_100001_100???",@"i":"qc_100001_100141",@
+|http://t7z.cupid.iqiyi.com/mixer*=qc_100001_$s@"adSlots":[{"ads":@"adSlots":[{"":@
 |http://www.dmnico.cn/js/qiyi2.js$s@flashP2PCoreUrl=http://www.iqiyi.com/common/flashplayer/201*/300*.swf@flashP2PCoreUrl=http://www.iqiyi.com/common/flashplayer/20151119/3022.swf@
 |http://www.dmnico.cn/js/qiyi2.js$s@src="http://www.iqiyi.com/common/flashplayer/201*/MainPlayer_5_*.swf"@src="http://update.adbyby.com/swf/iqiyi5.swf"@
-|http://www.iqiyi.com/*/pause.swf|
-|http://t7z.cupid.iqiyi.com/show2?*&a=qc_100001_300144&
-|http://www.iqiyi.com/common/clientPopLstyle.html
-|http://www.iqiyi.com/common/flashplayer/*/cornersign*.swf
-|http://www.iqiyi.com/common/flashplayer/2016*/pageer.swf?
-|http://www.iqiyi.com/player/201*choujiang*.swf
-|http://www.iqiyi.com/player/2013*/theatre*.swf
-|http://www.iqiyi.com/player/cupid/*/pageer.swf?
-|http://www.iqiyi.com/player/cupid/*/pause.swf
-||api.cupid.iqiyi.com/policy2
-||cupid.iqiyi.com/mixer?a*&d=qc_100001_100
-||cupid.iqiyi.com/show2?a=qc_100001_100
-||data.video.qiyi.com/videos/other$domain=~iqiyi.com
-||mixer.video.iqiyi.com/jp/mixin/resources/
-||qiyu.iqiyi.com/crossdomain.xml
-||www.iqiyi.com/player/cupid/common/icon_exclusive.swf
-|http://api.cupid.iqiyi.com/mixer
-|http://api.cupid.iqiyi.com/track2
+|http://t7z.cupid.iqiyi.com/show2?a=qc_100001_$s@<Ad>*</Ad>@@
+|http://www.iqiyi.com/*.html?key=$f@s@\.html\?key=.*@.html@
+||iqiyi.com/$s@&cpnv=1.0@@
 ||http://www.iqiyi.com/dianshiju/$s@<div id="1000000000123" class="ad-wrapper clearfix">@<div style="display:none">@
 ! ----LETV----
 ||ark.letv.com
@@ -4414,3 +4412,9 @@ anywlan.com##.bscekvofc_o.wp
 ||imgsrc.baidu.com/forum/pic/item/0bcf9c82251dca8d6c8119ed.jpg?v=tbs
 !tieba.baidu.com##.video_list
 !tieba.baidu.com##.j_video_list_wrap.video_list_wrap
+||btrace.qq.com^
+||qq.com/ping.js?
+||qq.com/stats?
+||trace.qq.com^$third-party
+||rcgi.video.qq.com^
+||pingjs.qq.com^
