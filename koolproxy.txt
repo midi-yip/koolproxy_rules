@@ -4390,7 +4390,7 @@ anywlan.com##.bscekvofc_o.wp
 ||muchong.com/bbs/$s@<div class="wrapper adtable">@<div style="display:none">@
 ||muchong.com/bbs/$s@<a href="adlog.php?adid=*" class="" target="_blank">@<div style="display:none">@
 ||muchong.com/$s@<div class="hot-pic mt20">@<div style="display:none">@
-!-------------------------------------------------- fuck -----------------------------------------------------------------------
+!-------------------------------------------------- what the fuck -----------------------------------------------------------------------
 !||www.baidu.com/$s@='{"fm":"pp", "p1":*}'@="" style="display:none !important;"@
 !||www.baidu.com/$s@='{"fm":"ppim", "p1":*}'@="" style="display:none !important;"@
 |http://bbs.kafan.cn/$s@</head>@</head><script>document.cookie="r6pb_69df_widthauto=1;domain=.kafan.cn";</script>@
