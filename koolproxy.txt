@@ -1,4 +1,4 @@
-!  -----update:  2016-9-27 21:15 -- by houzi
+!  -----update:  2016-9-28 22:00 -- by houzi
 !  -----base: adblock <koolproxy dedicated>
 !  -----thanks: /zt whyc CJX
 @@|http://$domain=code.google.com|yeepay.com|taoke.alimama.com|club.alimama.com|tenpay.com|tmall.com|tbcdn.cn|jd.com
@@ -3212,6 +3212,7 @@
 ||djbox.ku8box.com:8888/dj2010/AD/
 ||dl.ops.baidu.com$third-party
 ||dlads.cn
+||duoshuo.com$domain=~lite6.com,third-party
 ||dlamlab.com$third-party
 ||dm5.com/wxh.js?pt=$script
 ||dm5.com/wxhfm.html?cid=
@@ -4016,6 +4017,7 @@
 ||wrating.com^$third-party,domain=~tudou.com|~v.ifeng.com
 ||wudang05.com
 ||wuyou.com/0000/$image
+||werpig.com/$third-party
 ||www.32414.com^
 ||www.3alian.net^
 ||www.41478.com/indexgg.js
@@ -4385,12 +4387,12 @@ anywlan.com##.bscekvofc_o.wp
 ||chinaunix.net/www/static/images/*.jpg
 !---- qiushibaike.com ----
 !qiushibaike.com##DIV.shopwindow,DIV.mb-m[style="width:300px;height:250px;background:white;"]
-||qiushibaike.com/$s@<div class="shopwindow">@<div style="display:none">@
+!||qiushibaike.com/$s@<div class="shopwindow">@<div style="display:none">@
 !---- muchong.com ----
 ||muchong.com/bbs/$s@<div class="wrapper adtable">@<div style="display:none">@
 ||muchong.com/bbs/$s@<a href="adlog.php?adid=*" class="" target="_blank">@<div style="display:none">@
 ||muchong.com/$s@<div class="hot-pic mt20">@<div style="display:none">@
-!-------------------------------------------------- what the fuck -----------------------------------------------------------------------
+!-------------------------------------------------- fuck -----------------------------------------------------------------------
 !||www.baidu.com/$s@='{"fm":"pp", "p1":*}'@="" style="display:none !important;"@
 !||www.baidu.com/$s@='{"fm":"ppim", "p1":*}'@="" style="display:none !important;"@
 |http://bbs.kafan.cn/$s@</head>@</head><script>document.cookie="r6pb_69df_widthauto=1;domain=.kafan.cn";</script>@
@@ -4418,3 +4420,4 @@ anywlan.com##.bscekvofc_o.wp
 ||trace.qq.com^$third-party
 ||rcgi.video.qq.com^
 ||pingjs.qq.com^
+*/51ads/
