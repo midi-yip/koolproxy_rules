@@ -4385,7 +4385,7 @@ anywlan.com##.bscekvofc_o.wp
 ||chinaunix.net/www/static/images/*.jpg
 !---- qiushibaike.com ----
 !qiushibaike.com##DIV.shopwindow,DIV.mb-m[style="width:300px;height:250px;background:white;"]
-!||qiushibaike.com/$s@<div class="shopwindow">@<div style="display:none">@
+||qiushibaike.com/$s@<div class="shopwindow">@<div style="display:none">@
 !---- muchong.com ----
 ||muchong.com/bbs/$s@<div class="wrapper adtable">@<div style="display:none">@
 ||muchong.com/bbs/$s@<a href="adlog.php?adid=*" class="" target="_blank">@<div style="display:none">@
