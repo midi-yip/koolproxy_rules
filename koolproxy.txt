@@ -1,4 +1,4 @@
-!  -----update:  2016-9-28 22:00 -- by houzi
+!  -----update:  2016-9-29 12:00 -- by houzi
 !  -----base: adblock <koolproxy dedicated>
 !  -----thanks: /zt whyc CJX
 @@|http://$domain=code.google.com|yeepay.com|taoke.alimama.com|club.alimama.com|tenpay.com|tmall.com|tbcdn.cn|jd.com
@@ -3441,7 +3441,6 @@
 ||jhzl001.com^
 ||jiajv.net
 ||jianmei123.com
-||jiathis.com
 ||jiathis.com/*cm.js?p=
 ||jiawen88.com
 ||jiayuwl.com
@@ -4421,3 +4420,6 @@ anywlan.com##.bscekvofc_o.wp
 ||rcgi.video.qq.com^
 ||pingjs.qq.com^
 */51ads/
+||fund.eastmoney.com/trade/Hot_Em.html?spm=100005001.rw
+||http://guba.eastmoney.com/$s@<div id="flow-ad-2991" style="display: block; width: 135px; height: 568px; left: 31px; top: 48px; position: fixed !important;">@<div style="display:none">@
+||http://guba.eastmoney.com/$s@<div style="position:absolute;top:0;left:0;width:100%;height:568px;padding-top:0px;overflow:hidden;zoom:1;z-index:2;">@<div style="display:none">@
