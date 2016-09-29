@@ -1,4 +1,4 @@
-!  -----update:  2016-9-29 12:55 -- by houzi
+!  -----update:  2016-9-29 17:00 -- by houzi
 !  -----base: adblock <koolproxy dedicated>
 !  -----thanks: /zt whyc CJX
 @@|http://$domain=code.google.com|yeepay.com|taoke.alimama.com|club.alimama.com|tenpay.com|tmall.com|tbcdn.cn|jd.com
@@ -3247,6 +3247,10 @@
 ||e706.net
 ||e708.net
 ||e719.net$domain=~www.flv.tv
+||cmsjs.eastmoney.com^$subdocument
+||cp.eastmoney.com/wap/*.js
+||eastmoney.com/js/headbiggg_
+||same.eastmoney.com^
 ||ebp.renren.com^
 ||ec.yimg.com
 ||ecuc123.net
