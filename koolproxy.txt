@@ -1,4 +1,4 @@
-!  -----update:  2016-9-30 14:00 -- by houzi
+!  -----update:  2016-9-30 20:45 -- by houzi
 !  -----base: adblock <koolproxy dedicated>
 !  -----thanks: /zt whyc CJX
 @@|http://$domain=code.google.com|yeepay.com|taoke.alimama.com|club.alimama.com|tenpay.com|tmall.com|tbcdn.cn|jd.com
@@ -6,6 +6,10 @@
 @@|http://$domain=meishichina.com|vip.xunlei.com|lixian.xunlei.com|www.vmall.com|www.1688.com|www.mm111.net|jifen.qq.com
 @@|http://$domain=taobao.com|taobao.org|alipay.com|suning.com|51buy.com|ct10000.com|etao.com|hitao.com|paipai.com|189.cn
 @@|http://$domain=banggo.com|pili.com.tw|yunhou.com|voicecloud.cn|xunfei.cn|pub.alimama.com
+@@|http://js.gomein.net.cn/
+@@|http://css.gomein.net.cn/
+@@|http://img6.gomein.net.cn/
+@@|http://img13.gomein.net.cn/
 @@||pingjs.qq.com/ping.js
 @@||pingjs.qq.com/ping_tcss_ied.js$domain=dnf.qq.com
 @@||pingjs.qq.com/ping_tcss_ied.js$domain=lol.qq.com
@@ -370,7 +374,7 @@
 |http://*.com/d/js/m/
 |http://*.com/dy_*jjss/$script
 |http://*.com/ecom?di=
-|http://*.com/ex?i=mm_
+!|http://*.com/ex?i=mm_
 |http://*.com/ge/?s=
 |http://*.com/gg*.gif|$image
 |http://*.com/gg_index/
@@ -1760,7 +1764,7 @@
 |http://s142.cnzz
 |http://safecn.qiniudn.com/wp-content/themes/HotNewspro/images/a.gif$image
 |http://same.jrj.com.cn^
-|http://sax.sina.
+!|http://sax.sina.
 |http://sc.jb51.net/js/ggtop.js$script
 |http://sc.jb51.net/js/tjhd.js$script
 |http://score.365rich.cn/live.htm?
@@ -3052,7 +3056,7 @@
 ||bdstaic.com/r/www/cache/static/plugins/every_cookie_*.js
 ||bebi.com^$third-party
 ||beha.ksmobile.com
-||behe.com
+!||behe.com
 ||bestvogue.com/fans/
 ||bidvertiser.com/BidVertiser.dbm?pid=
 ||bilibili.tv/html/
@@ -3130,7 +3134,7 @@
 ||cloudfront.net$domain=~pcloud.com,~script
 ||cm.emarbox.com/_cm
 ||cm.p4p.cn.yahoo.com
-||cm.pos.baidu.com/pixel?
+!||cm.pos.baidu.com/pixel?
 ||cn.ad.adon.vpon.com
 ||cn.img.adon.vpon.com
 ||cn.innity-asia.com
@@ -3222,8 +3226,8 @@
 ||dmtrck.com
 ||dnlmt.com
 ||dou777.com
-||doubleclick.net/
-||doubleclick.net/$third-party,domain=~bestbuy.ca|~v.ifeng.com
+!||doubleclick.net/
+!||doubleclick.net/$third-party,domain=~bestbuy.ca|~v.ifeng.com
 ||doupapa.com/js/autoclose.js
 ||doyo.ad.17173.com^
 ||dr999.cc
@@ -3280,7 +3284,7 @@
 ||f70123.com$domain=~www.flv.tv
 ||f8272.com
 ||fansi365.com
-||fastapi.net$domain=~m.ku6.com
+!||fastapi.net$domain=~m.ku6.com
 ||fclick.baidu.com
 ||fd7c.com
 ||feesee.com
@@ -3390,7 +3394,7 @@
 ||hypertrackeraff.com^$third-party
 ||hyz86.com
 ||irs01.com/irt?
-||ipinyou.com
+!||ipinyou.com
 ||i3818.com
 ||i3z.cn
 ||ibestv.com/api/ad/
@@ -3585,7 +3589,7 @@
 ||mc.yandex.ru/watch/
 ||media.news18a.com/js/$third-party,script
 ||media8.cn
-||mediav.com^
+!||mediav.com^
 ||meijub.com/js/a/youxiajiao
 ||meitissp.com
 ||meiyouad.com/user/union?t=
@@ -3647,7 +3651,7 @@
 ||ooss.oss.aliyuncs.com
 ||ooxxbbs.com/data/attachment/forum/$image
 ||open.show.qq.com/cgi-bin/qqshow_user_gdt_ad?ad
-||optaim.com
+!||optaim.com
 ||ouyaoxiazai.com/hengfu.js$script
 ||ox11.com
 ||p-log.ykimg.com^
@@ -3862,7 +3866,7 @@
 ||t3nlink.com
 ||t70123.com
 ||ta80.com
-||tanx.com^
+!||tanx.com^
 ||tanx.com^$third-party,domain=~tmall.com
 ||taobaocdn.com$domain=www.aknba.com|xiaoer.tv|whnight.com
 ||taobaomayu.com
@@ -4084,7 +4088,7 @@
 ||xstar.cc^
 ||xsu.cc^
 ||xt918.com
-||xtgreat.com
+!||xtgreat.com
 ||xulekeji.com
 ||xun.mobi$third-party
 ||xxhrd.com
@@ -4216,7 +4220,6 @@
 |http://api.cupid.qiyi.com/policy2?a=qc_100001_300*&b=$s@"ads":{"schedule":[{"adZoneId":10000000@"":{"schedule":[{"adZoneId":10000000@
 |http://api.cupid.qiyi.com/policy2?a=qc_100001_100017&b=$s@"ads":{"schedule":[{"@"":{"schedule":[{"@
 |http://www.iqiyi.com/crossdomain.xml$s@<allow-access-from domain="?.qiyi.com"/>@<allow-access-from domain="*"/>@
-!|http://data.video.qiyi.com/crossdomain.xml$s@<allow-access-from domain="?.qiyi.com"/>@<allow-access-from domain="*"/>@
 ||iqiyi.com/$s@cid=qc_100001_100???@cid=qc_100001_100141@
 ||iqiyi.com/$s@cid=&@cid=qc_100001_100141&@
 |http://t7z.cupid.iqiyi.com/mixer*=qc_100001_$s@"i":"qc_100001_100???",@"i":"qc_100001_100141",@
@@ -4284,16 +4287,12 @@
 ||info.lm.tv.sohu.com^$domain=gezila.com
 ||pinglun.sohu.com/sogouad.html
 ||sohu.com.cn/ppp/bms/bms.popup.
-!||sohu.com/adgtr/
 ||tv.sohu.com/interaction/get/getListByVid.do
 ||tv.sohu.com/upload/Trace/$script
 ||tv.sohu.com/upload/advert/sohuhd.ad.js
 ||tv.sohu.com/upload/static/global/hdpv.js
 ||vm.aty.sohu.com^
-||http://tv.sohu.com/upload/swf/20160908/Main.swf$r@http://entware.mirrors.ligux.com/adblock/swf/sohu_live.swf@http://entware.mirrors.ligux.com/adblock/swf/sohu_live.swf@
-!||tv.sohu.com/upload/swf/.*?/PlayerShell.swf\?$r@http://tv.sohu.com/upload/swf/.*?/PlayerShell.swf@http://update.adbyby.com/swf/sohu_livezb.swf@
 ||hot.vrs.sohu.com/vrs_flash.action\?vid=$r@&plid=\d+&uid=@&plid=7038006&uid=@
-!||/http:\/\/[^\/]+\.(youku|tudou|ku6|i?qiyi|le(tv)?|lecloud|pptv|pps|sina|sohu|56)[^.]*?\.(com(\.cn)?|tv)\/crossdomain\.xml/
 ! ----QQ LIVE----
 |http://ra.gtimg.com/sc/vqq/crystal-min.js$domain=v.qq.com
 ||l.qq.com/lview?
