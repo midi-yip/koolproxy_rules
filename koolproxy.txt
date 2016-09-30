@@ -1,4 +1,4 @@
-!  -----update:  2016-9-30 20:45 -- by houzi
+!  -----update:  2016-9-30 21:00 -- by houzi
 !  -----base: adblock <koolproxy dedicated>
 !  -----thanks: /zt whyc CJX
 @@|http://$domain=code.google.com|yeepay.com|taoke.alimama.com|club.alimama.com|tenpay.com|tmall.com|tbcdn.cn|jd.com
@@ -8,8 +8,7 @@
 @@|http://$domain=banggo.com|pili.com.tw|yunhou.com|voicecloud.cn|xunfei.cn|pub.alimama.com
 @@|http://js.gomein.net.cn/
 @@|http://css.gomein.net.cn/
-@@|http://img6.gomein.net.cn/
-@@|http://img13.gomein.net.cn/
+@@|http://*.gomein.net.cn/
 @@||pingjs.qq.com/ping.js
 @@||pingjs.qq.com/ping_tcss_ied.js$domain=dnf.qq.com
 @@||pingjs.qq.com/ping_tcss_ied.js$domain=lol.qq.com
