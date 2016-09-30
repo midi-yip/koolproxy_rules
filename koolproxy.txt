@@ -1,4 +1,4 @@
-!  -----update:  2016-9-29 20:39 -- by houzi
+!  -----update:  2016-9-30 14:00 -- by houzi
 !  -----base: adblock <koolproxy dedicated>
 !  -----thanks: /zt whyc CJX
 @@|http://$domain=code.google.com|yeepay.com|taoke.alimama.com|club.alimama.com|tenpay.com|tmall.com|tbcdn.cn|jd.com
@@ -3067,7 +3067,6 @@
 ||bmw100.cn
 ||bnet.com
 ||bnuni.com
-||boscdn.bpc.baidu.com
 ||bs.baidu.com/adcoup-mat/$script,object,object-subrequest
 ||bs.da.hunantv.com
 ||bsshw.net
@@ -4297,8 +4296,9 @@
 !||/http:\/\/[^\/]+\.(youku|tudou|ku6|i?qiyi|le(tv)?|lecloud|pptv|pps|sina|sohu|56)[^.]*?\.(com(\.cn)?|tv)\/crossdomain\.xml/
 ! ----QQ LIVE----
 |http://ra.gtimg.com/sc/vqq/crystal-min.js$domain=v.qq.com
-v.qq.com##div.pop_ads_wide,div#QQlive_SP_RM.l_qq_com,DIV[class^="mod_ads mod_ads_main_"],iframe[src="http://games.qq.com/playgame/videoweb/videoweb.htm"],div[class^="mod_float_"],div.mod_ad,div.site_bg.site_bg_variety,.player_bg_ad,.jmodule.module-image,.top_banner,.mod_ads_play
 ||l.qq.com/lview?
+||livep.l.qq.com
+|http://livew.l.qq.com/livemsg?ty=web&ad_type=ZT&pf=in&pt=0
 ||qq.com/livemsg?
 ! ----YOUKU TUDOU----
 ! ---- tudou ----
