@@ -3014,7 +3014,7 @@
 ||aomeishang.com
 ||aoodoo.weiphone.com^
 ||apas.aipai.com/www/images/
-!||api.ad.xiaomi.com
+||api.ad.xiaomi.com
 ||api.admob.com
 ||api.airpush.com
 ||api.bilibili.com/x/ad/
