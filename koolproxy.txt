@@ -1,4 +1,4 @@
-!  -----update:  2016-10-2 20:00 -- by houzi
+!  -----update:  2016-10-2 21:32 -- by houzi
 !  -----base: adblock <koolproxy dedicated>
 !  -----thanks: /zt whyc CJX yiclear
 !  -------------------------------------- white rules ---------------------------------------------
@@ -4126,15 +4126,12 @@
 ||zzrcz.com
 ||couqm.com.cn
 ||zzbaowen.com
-
-!---------adbyby---------
 ^http://www.rentiyishu99.net/\w.js$script
 ^http://www.rentiyishu88.com/\w.js$script
 ^http://www.rentiyishu88.net/\w.js$script
 ^http://www.airenti.in/\w.js$script
 ^http://www.airenti.ca/\w.js$script
 ^http://td.xue163.com/ajs/\w{1,3}\.js$script
-
 |http://174.127.195.###ad_text,#ad_headerbanner,.ad_pip,a[href*="/?Intr"],a[href*="/?intr"],a[href*="/?aff"],[href*="/?Extend="],[href*="/?p="],div.ad_column
 |http://67.220.90.###ad_text,#ad_headerbanner,.ad_pip,a[href*="/?Intr"],a[href*="/?intr"],a[href*="/?aff"],[href*="/?Extend="],[href*="/?p="],div.ad_column
 |http://hd.gg/##div.a_mu
