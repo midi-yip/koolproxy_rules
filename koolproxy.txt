@@ -1,4 +1,4 @@
-!  -----update:  2016-10-2 21:32 -- by houzi
+!  -----update:  2016-10-2 22:06 -- by houzi
 !  -----base: adblock <koolproxy dedicated>
 !  -----thanks: /zt whyc CJX yiclear
 !  -------------------------------------- white rules ---------------------------------------------
@@ -4510,7 +4510,7 @@
 |http://bt.orzx.im/$s@<script src="http://v.jtxh.net*></script>
 |http://caibaojian.com/$s@.height()<10)@.height()<0)@
 |http://cdn.kali.tv/player/$s@l:'http*t:'??',@l:'',r:'',t:'',@
-|http://cibn.api.3g.cp31.ott.cibntv.net/v$f@s@&position=\d+&is_fullscreen=@&position=0&is_fullscreen=@
+!|http://cibn.api.3g.cp31.ott.cibntv.net/v$f@s@&position=\d+&is_fullscreen=@&position=0&is_fullscreen=@
 |http://club.m.autohome.com.cn/$s@display: block!important;@display: none!important;@
 |http://dioguitar23.net/$s@window.open("http://@@
 |http://download.mokeedev.com/$s@, i*1000);@, i*0);@
