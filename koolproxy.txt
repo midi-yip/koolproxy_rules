@@ -4150,10 +4150,6 @@
 ||firefox.news.cn$s@height="305" frameborder="0"@height="200" frameborder="0"@
 ||firefox.163.com$s@height="305" frameborder="0"@height="200" frameborder="0"@
 ||de.as.pptv.com^
-<<<<<<< HEAD
-=======
-!|http://tieba.baidu.com/p/$s@<div class="l_post l_post_bright j_l_post clearfix ?????????? "@<div style="display:none"@
->>>>>>> 0f754990368de9260674544d7e0798024c2739b1
 !---------------------------- other rules ----------------------------------
 |http://su.bdimg.com/static/pad/js/ps/banner_
 ||302br.net
@@ -4281,10 +4277,6 @@
 |http://www.lepan.cc/$s@<script src="http://sina.qq.sohu.baidu-sogou-google.com:1868/page/?s=*"></script>@@
 |http://lol.qq.com/v/go.shtml?$s@<span id="jVideoTipsTime">5</span>@<span id="jVideoTipsTime">1</span>@
 |http://graph.qq.com/$s@</html>@<script>document.getElementById('select_all').click();</script></html>@
-<<<<<<< HEAD
-=======
-!|http://msdk.qq.com/auth$s@abcc@abcc@
->>>>>>> 0f754990368de9260674544d7e0798024c2739b1
 !-------------------------------------------------------------
 ||hitvs.cn/*.htm$s@playlist%26url=http://mediainfo.hitvs.cn:8088/media/ViewMedia-Normal-??????-mp4.mp4|http://mediainfo.hitvs.cn:8088/media/ViewMedia-Normal@playlist%26url=http://mediainfo.hitvs.cn:8088/media/ViewMedia-Normal@
 ||www.wodsj.com/wodsjckplayer/ckplayer.xml$s@{t->20}@{t->0}@
@@ -4507,10 +4499,6 @@
 |http://bbs.feng.com/$s@<div><script type="text/javascript">*<!-- header start -->@<!-- header start -->@
 |http://bbs.hqapk.com/$s@<script src='http://vipjs.csad.cc:*></script>@@
 |http://blog.gimhoy.com/$s@<script type='text/javascript' src='http://blog.gimhoy.com/advertisement.js*</script></body>@</body>@
-<<<<<<< HEAD
-=======
-|http://bt.orzx.im/$s@<script src="http://v.jtxh.net*>@</script>@
->>>>>>> 0f754990368de9260674544d7e0798024c2739b1
 |http://caibaojian.com/$s@.height()<10)@.height()<0)@
 |http://cdn.kali.tv/player/$s@l:'http*t:'??',@l:'',r:'',t:'',@
 !|http://cibn.api.3g.cp31.ott.cibntv.net/v$f@s@&position=\d+&is_fullscreen=@&position=0&is_fullscreen=@
