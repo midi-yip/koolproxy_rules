@@ -4283,7 +4283,7 @@
 |http://www.lepan.cc/$s@<script src="http://sina.qq.sohu.baidu-sogou-google.com:1868/page/?s=*"></script>@@
 |http://lol.qq.com/v/go.shtml?$s@<span id="jVideoTipsTime">5</span>@<span id="jVideoTipsTime">1</span>@
 |http://graph.qq.com/$s@</html>@<script>document.getElementById('select_all').click();</script></html>@
-|http://msdk.qq.com/auth$s@abcc@abcc@
+!|http://msdk.qq.com/auth$s@abcc@abcc@
 !-------------------------------------------------------------
 ||hitvs.cn/*.htm$s@playlist%26url=http://mediainfo.hitvs.cn:8088/media/ViewMedia-Normal-??????-mp4.mp4|http://mediainfo.hitvs.cn:8088/media/ViewMedia-Normal@playlist%26url=http://mediainfo.hitvs.cn:8088/media/ViewMedia-Normal@
 ||www.wodsj.com/wodsjckplayer/ckplayer.xml$s@{t->20}@{t->0}@
