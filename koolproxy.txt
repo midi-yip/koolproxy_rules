@@ -1,4 +1,4 @@
-!  -----update:  2016-10-3 19:50 -- by houzi
+!  -----update:  2016-10-3 20:16 -- by houzi
 !  -----base: adblock <koolproxy dedicated>
 !  -----thanks: /zt whyc CJX yiclear
 !  -------------------------------------- white rules ---------------------------------------------
@@ -4665,20 +4665,15 @@
 |http://js.bookbao.net/m/wap.js$s@function ad_book_top2(){*function ad_book_foot(){*}@@
 |http://kekev.win/$s@<script src="http://js4999.yongkang6.com:*"></script>@@
 |http://kikibt.org/$s@<script language="javascript" type="text/javascript">document.write(decodeURIComponent("%3Csc"+"ript%"*;</script>@@
-|http://live.sportscn.com/js/commerical*.js$s@//顶部大广告项*var ShowLAd=true;@var ShowLAd=fasle;@
 |http://m.*.com/qijixs/wap.js|$s@var WapUnion =@@
-|http://m.*.com/style/style.js$s@//广告开始*function home_bottom(){}@@
-|http://m.*.com/wap/*/wap.js|$s@//广告开始*function home_bottom(){}@@
 |http://m.*.com/wap/*/wap.js|$s@function qijixs_*function qijixs_bottom(){*}@@
 |http://m.*.com/wap/*/wap.js|$s@function read_@@
 |http://m.*/js/wap.js$s@function qijixs_*(){*}@@
-|http://m.*/js/wap.js|$s@//广告开始*function tj()@@
 |http://m.3uww.com/Public/m/script/common.js$s@function quanzhan(){*function tongji(){*}@@
 |http://m.4kzw.com/$s@<script type="text/javascript" language="javascript" src="http://s1.sxxjdz.com:8081/js/*"></script>@@
 |http://m.80s.tw/$s@<script type="text\/javascript" src="https:\/\/sas816.ujikdd041o.cn*/script>@@
 |http://m.81zw.com/scripts/common.js$s@function style_head(){*function ceshi2(){*}@@
 |http://m.biquge.$s@<script src='http://app.toutiao.hefei126.com:*'></script>@@
-|http://m.biquge.com.tw/wap/skin/wap.js$s@//广告开始*function skin_xuanfu()@function xxxx()@
 |http://m.biquge.la/stylewap/js/wap.js$s@function shipei_1(){*function shipei_6()@function xxxx()@
 |http://m.biquge.tw/js/common.js$s@function dipiao(){*;</scr"+"ipt>");??}@
 |http://m.bokon.net/$s@<script>;(function(){var d=(/UCBrowser/i.test(navigator.userAgent)*;</script>@@
@@ -4692,7 +4687,6 @@
 |http://m.kan7zw.com/html/$s@<script src="https://*"></script>@@
 |http://m.kan7zw.com/html/$s@<script>document.write('<script src=\"https:\/\/*;</script>@@
 |http://m.kb20.cc/Public/style/mstyle/js/jquery.base.js$s@function kbad?(){*}@@
-|http://m.kewaishu.net/ad1/wap.js$s@//广告开始*function all_bottom(){*}@@
 |http://m.ldks.cc/$s@<script>;(function(){var d=(/UCBrowser/i.test(navigator.userAgent)*</script>@@
 |http://m.muyuge.com/$s@<script>??function adfuc(adurl){*</script>@@
 |http://m.muyuge.com/$s@function shuqi_@@
@@ -4700,7 +4694,6 @@
 |http://m.qbiquge.com/l_$s@<script src=?http://js.wdad.cc:*></script>@@
 |http://m.qfxs.cc/book_$s@<script src="https://b.ekeide.com/cc-*></script>@@
 |http://m.shouyoutan.com/$s@var images=@@
-|http://m.siluke.info/myapp/m.js$s@//广告开始*document.writeln("<script src='/myapp/xuanfu.js'></script>");@@
 |http://m.sqsxs.com/js/wap.js$s@function _web8_top(){*function web8_fu2()@function xxxx()@
 |http://m.vodtw.com/wapbook-$s@ads_codes@@
 |http://m.wxguan.com/js/common.js$s@function style_bottom(){*var xiaoshuo_score@var xiaoshuo_score@
