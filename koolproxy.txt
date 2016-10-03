@@ -4155,7 +4155,7 @@
 ||firefox.news.cn$s@height="305" frameborder="0"@height="200" frameborder="0"@
 ||firefox.163.com$s@height="305" frameborder="0"@height="200" frameborder="0"@
 ||de.as.pptv.com^
-|http://tieba.baidu.com/p/$s@<div class="l_post l_post_bright j_l_post clearfix ?????????? "@<div style="display:none"@
+!|http://tieba.baidu.com/p/$s@<div class="l_post l_post_bright j_l_post clearfix ?????????? "@<div style="display:none"@
 !---------------------------- other rules ----------------------------------
 |http://su.bdimg.com/static/pad/js/ps/banner_
 ||302br.net
