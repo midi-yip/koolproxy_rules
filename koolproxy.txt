@@ -4507,7 +4507,7 @@
 |http://bbs.feng.com/$s@<div><script type="text/javascript">*<!-- header start -->@<!-- header start -->@
 |http://bbs.hqapk.com/$s@<script src='http://vipjs.csad.cc:*></script>@@
 |http://blog.gimhoy.com/$s@<script type='text/javascript' src='http://blog.gimhoy.com/advertisement.js*</script></body>@</body>@
-|http://bt.orzx.im/$s@<script src="http://v.jtxh.net*></script>
+|http://bt.orzx.im/$s@<script src="http://v.jtxh.net*>@</script>@
 |http://caibaojian.com/$s@.height()<10)@.height()<0)@
 |http://cdn.kali.tv/player/$s@l:'http*t:'??',@l:'',r:'',t:'',@
 !|http://cibn.api.3g.cp31.ott.cibntv.net/v$f@s@&position=\d+&is_fullscreen=@&position=0&is_fullscreen=@
