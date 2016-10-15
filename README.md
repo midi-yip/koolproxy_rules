@@ -12,3 +12,6 @@
 | 爱奇异视频 | <http://www.iqiyi.cn/> |✓| 跳过 |
 | 土豆视频 | <http://www.tudou.com/> |✓| 跳过 |
 | 优酷视频 | <http://www.youku.com/> |✓| 跳过 |
+| 17173视频 | <http://v.17173.com/> |✓| 跳过 |
+| 搜狐视频 | <http://tv.sohu.com/> |✓| 跳过 |
+| 56视频 | <http://www.56.com/> |✓| 跳过 |
