@@ -1,4 +1,4 @@
-!x  -----update[rules]:  2016-10-17 18:00 --- by houzi /zt
+!x  -----update[rules]:  2016-10-18 12:00 --- by houzi /zt
 !x  -----update[video]:  2016-10-17 21:43 --- by houzi /zt
 !x  -----base: adblock <koolproxy dedicated>
 !x  -----thanks: xwhyc CJX yiclear adsafe
@@ -1331,7 +1331,6 @@
 |http://front.adsnew.babyhome.com.tw/bbh_ad
 |http://front.adsnew.babyhome.com.tw/slot_gateway.php?mode=
 |http://fund.10jqka.com.cn/public/stock/red.html?$document
-|http://g.163.com
 |http://g.akjunshi.com/z/$script
 |http://g.bitauto.com/srv/getAdDataByDiv.ashx?
 |http://g.buka9.com^
@@ -3791,7 +3790,7 @@
 ||t70123.com
 ||ta80.com
 ||tanjs.com
-||tanx.com^$third-party,domain=~tmall.com
+!||tanx.com^$third-party,domain=~tmall.com
 ||taobaocdn.com$domain=www.aknba.com|xiaoer.tv|whnight.com
 ||taobaomayu.com
 ||taohuazu.tw/tool
@@ -4327,10 +4326,8 @@
 ||down.nyhx.com$s@window.open ('http://www.gxp.cc/')@@
 ||gamersky.com$s@writeflashhtml("_swf=*wmode=transparent");@@
 ||hb.sina.com.cn/|$s@<SCRIPT LANGUAGE="JavaScript1.2">*function openWindowBack*</SCRIPT>@@
-||img1.cache.netease.com$s@DDD;height:241px;@DDD;height:151px;@
 ||jingpin.qidian.com/$s@<div id="head" style ="height:180px;"@<div id="head" style ="height:110px;"@
 ||lol.52pk.com/*.shtml$s@var num = 10;@var num = 0;@
-||news.163.com$s@DDDDDD; height: 241px;@DDDDDD; height: 151px;@
 ||qidian.com$s@<script language="javascript" type="text/javascript">QIDIAN_ADCookie*</script>@@
 !||tieba.baidu.com$s@</html>@<script>PageData.user.is_login=true;</script></html>@
 ||wan.sogou.com$s@floatLayerJsonArr.push(flj);@@
