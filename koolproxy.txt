@@ -1,4 +1,4 @@
-!x  -----update[rules]:  2016-10-18 12:00 --- by houzi /zt
+!x  -----update[rules]:  2016-10-18 12:29 --- by houzi /zt
 !x  -----update[video]:  2016-10-17 21:43 --- by houzi /zt
 !x  -----base: adblock <koolproxy dedicated>
 !x  -----thanks: xwhyc CJX yiclear adsafe
@@ -3790,7 +3790,7 @@
 ||t70123.com
 ||ta80.com
 ||tanjs.com
-!||tanx.com^$third-party,domain=~tmall.com
+||tanx.com^$third-party,domain=~tmall.com
 ||taobaocdn.com$domain=www.aknba.com|xiaoer.tv|whnight.com
 ||taobaomayu.com
 ||taohuazu.tw/tool
