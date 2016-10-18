@@ -1,4 +1,4 @@
-!x  -----update[rules]:  2016-10-18 18:30 --- by houzi /zt
+!x  -----update[rules]:  2016-10-18 22:25 --- by houzi /zt
 !x  -----update[video]:  2016-10-18 14:01 --- by houzi /zt
 !x  -----base: adblock <koolproxy dedicated>
 !x  -----thanks: xwhyc CJX yiclear adsafe
@@ -71,12 +71,12 @@
 @@|http://c.gdt.qq.com/gdt_click.
 @@|http://c1.keyrun.cn$domain=400gb.com|pipipan.com|bego.cc
 @@|http://cb.baidu.com/ecom?di=$domain=qianyan001.com|colayun.com|ctfile.com|bego.cc|666ccc.com|yue365.com|coladrive.com
-@@|http://cb.baidu.com/ecom?di=$domain=www.400gb.com|www.pipipan.com|7958.com|www.9ku.com|www.u148.net|www.redocn.com|bbs.tiexue.net|www.narutom.com|www.neihan8.com
+@@|http://cb.baidu.com/ecom?di=$domain=www.400gb.com|www.pipipan.com|7958.com|www.9ku.com|www.u148.net|www.redocn.com|bbs.tiexue.net|www.neihan8.com
 @@|http://cb.baidu.com/ecom?di=262297&dcb=BAIDU_DUP_define&dtm=
 @@|http://cb.baidu.com/ecom?di=892769
 @@|http://cb.baidu.com/ecom?di=933920&dcb=BAIDU
 @@|http://cb.baidu.com/ecom?di=975061&dcb=BAIDU_
-@@|http://cbjs.baidu.com/js/m.js$domain=www.400gb.com|pos.baidu.com|www.neihan8.com|www.shumilou.com|colayun.com|www.xiiku.com|fxpan.com|coladrive.com
+@@|http://cbjs.baidu.com/js/m.js$domain=www.400gb.com|pos.baidu.com|www.neihan8.com|www.shumilou.com|colayun.com|www.xiiku.com|fxpan.com|coladrive.com|narutom.com
 @@|http://cbjs.baidu.com/js/o.js$script,domain=yue365.com|52pk.com|www.9ku.com|bbs.tiexue.net|pic.tiexue.net|666ccc.com|fxpan.com|missioncouver.com.cn|shop-hcjs.net
 @@|http://cbjs.baidu.com/js/s.js$domain=yue365.com
 @@|http://cdn.exp.qq.com/img/
@@ -394,7 +394,7 @@
 |http://*.com/d/js/m/
 |http://*.com/dy_*jjss/$script
 |http://*.com/ecom?di=
-|http://*.com/ex?i=mm_
+|http://*.com/ex?i=mm_$domain=~maxthon.cn
 |http://*.com/ge/?s=
 |http://*.com/gg*.gif|$image
 |http://*.com/gg_index/
@@ -2963,7 +2963,7 @@
 ||ajhdf.com
 ||ajuhd.com
 ||alicdn.com/g/mm/afp-cdn/JS/k.js$domain=~scol.com.cn|~crecgec.com
-||alicdn.com/t/tanxssp.js?_v=
+||alicdn.com/t/tanxssp.js?_v=$domain=~maxthon.cn
 ||alimama.cn^$domain=~alimama.com|~budou.com|~51bi.com
 ||alitianxia168.com^
 ||aliunion.cn.yahoo.com
@@ -3333,7 +3333,7 @@
 ||histats.com/js$script
 ||hivecn.cn
 ||hkgolden.com/reqwads?s=
-||hm.baidu.com/h
+||hm.baidu.com/h,$domain=~maxthon.cn
 ||home.wangmeng.com
 ||home.xdf.cn/lee_sq/js/
 ||hosting24.com
@@ -3790,8 +3790,8 @@
 ||t70123.com
 ||ta80.com
 ||tanjs.com
-||tanx.com^$third-party,domain=~tmall.com
-||taobaocdn.com$domain=www.aknba.com|xiaoer.tv|whnight.com
+||tanx.com^$third-party,domain=~tmall.com|~maxthon.cn
+||taobaocdn.com$domain=www.aknba.com|xiaoer.tv|whnight.com|~maxthon.cn
 ||taobaomayu.com
 ||taohuazu.tw/tool
 ||taomato.com
@@ -4771,7 +4771,7 @@
 ||mediav.com^$third-party
 ||jd.com/exsites?spread_type=
 ||optaim.com^$third-party
-||tanx.com^$third-party,domain=~1688.com|~alimama.com|~taobao.com|~tmall.com
+||tanx.com^$third-party,domain=~1688.com|~alimama.com|~taobao.com|~tmall.com|~maxthon.cn
 ||irs01.$third-party
 .com/pv.gif?
 ||3dwwwgame.com^$third-party
@@ -4781,7 +4781,7 @@
 ||dup.baidustatic.com/js/
 ||discuz.gtimg.cn/cloud/scripts/discuz_tips.js
 ||cnzz.com^$third-party
-||hm.baidu.com^$third-party
+||hm.baidu.com^$third-party,domain=~maxthon.cn
 ||gugeys.com/9602.gif$domain=y4dg.cc
 ||gugeys.com/9601.gif$domain=y4dg.cc
 ||gugeys.com/9605.gif$domain=y4dg.cc
@@ -4834,3 +4834,9 @@
 ||irs01.com/$third-party
 |http://union$third-party,domain=~jd.com
 /pos?act=dur$object-subrequest,domain=tudou.com
+||pos.baidu.com^
+||youle55.com^$third-party
+||cpro.baidustatic.com^
+/getAliyunAdv.
+||cbjs.baidu.com^
+||tanx.com^$third-party,domain=~1688.com|~alimama.com|~taobao.com|~tmall.com|~maxthon.cn
