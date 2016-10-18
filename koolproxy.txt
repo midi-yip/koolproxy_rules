@@ -1,4 +1,4 @@
-!x  -----update[rules]:  2016-10-18 22:25 --- by houzi /zt
+!x  -----update[rules]:  2016-10-18 23:11 --- by houzi /zt
 !x  -----update[video]:  2016-10-18 14:01 --- by houzi /zt
 !x  -----base: adblock <koolproxy dedicated>
 !x  -----thanks: xwhyc CJX yiclear adsafe
@@ -4777,7 +4777,6 @@
 ||3dwwwgame.com^$third-party
 ||niuxgame77.com^
 ||8ox.cn^$third-party
-||cpro.baidustatic.com^
 ||dup.baidustatic.com/js/
 ||discuz.gtimg.cn/cloud/scripts/discuz_tips.js
 ||cnzz.com^$third-party
@@ -4840,3 +4839,4 @@
 /getAliyunAdv.
 ||cbjs.baidu.com^
 ||tanx.com^$third-party,domain=~1688.com|~alimama.com|~taobao.com|~tmall.com|~maxthon.cn
+||baidu.com/tb/zt/$subdocument,domain=tieba.baidu.com
