@@ -1,4 +1,4 @@
-!x  -----update[rules]:  2016-10-22 20:00 --- by houzi /zt
+!x  -----update[rules]:  2016-10-23 10:28 --- by houzi /zt
 !x  -----update[video]:  2016-10-22 20:00 --- by houzi /zt
 !x  -----base: adblock <koolproxy dedicated>
 !x  -----thanks: xwhyc CJX yiclear adsafe
@@ -8051,5 +8051,4 @@
 ||33.autohome.com.cn^$object,script
 ||autohome.com.cn/adfront/deliver?
 ||autoimg.cn/admdfs/Adhtmlnet/
-||sinaimg.cn^
 ||img.pgc.tv/mail20160803.png$domain=ttmeiju.com
