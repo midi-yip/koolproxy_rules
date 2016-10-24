@@ -1,4 +1,4 @@
-!x  -----update[rules]:  2016-10-24 22:00 --- by houzi /zt
+!x  -----update[rules]:  2016-10-24 22:25 --- by houzi /zt
 !x  -----update[video]:  2016-10-23 23:30 --- by houzi /zt
 !x  -----base: adblock <koolproxy dedicated>
 !x  -----thanks: xwhyc CJX yiclear adsafe
@@ -17816,5 +17816,6 @@ http://swf.quanmin.tv/*swf|
 ||mp4ba.com$s@<script type="text/javascript" src="http://*.qucaigg.com:8080/*></script>@
 ||163.com$s@<div class="post_area clearfix">@<div style="display:none">@
 ||163.com$s@<div class="gg200x300">@<div style="display:none">@
+||lanseshuba.com$s@<script type="text/javascript" src="http://tu.jstztk.com:8081/*/*></script>@
 ||baidu.com$s@style="width: 100%;height: 100%;" alt="Ìù?ÉÍ¼Æ?@style="width: 0%;height: 0%;" alt="Ìù°ÉÍ¼Æ¬"@
 !x  -------------------------------------- replace rules ---------------------------------------------
