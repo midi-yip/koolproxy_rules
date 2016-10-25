@@ -9,7 +9,7 @@
 | 暴风视频 | <http://www.baofeng.com/> |✓| 跳过 |
 | 酷6视频 | <http://www.ku6.com/> |✓| 跳过 |
 | 凤凰视频 | <http://v.ifeng.com/> |✓| 跳过 |
-| 爱奇异视频 | <http://www.iqiyi.cn/> |✓| 跳过 |
+| 爱奇异视频 | <http://www.iqiyi.com/> |✓| 跳过 |
 | 土豆视频 | <http://www.tudou.com/> |✓| 跳过 |
 | 优酷视频 | <http://www.youku.com/> |✓| 跳过 |
 | 17173视频 | <http://v.17173.com/> |✓| 跳过 |
