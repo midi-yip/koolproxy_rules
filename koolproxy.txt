@@ -1,4 +1,4 @@
-!x  -----update[rules]:  2016-10-24 22:25 --- by houzi /zt
+!x  -----update[rules]:  2016-10-25 22:00 --- by houzi /zt
 !x  -----update[video]:  2016-10-23 23:30 --- by houzi /zt
 !x  -----base: adblock <koolproxy dedicated>
 !x  -----thanks: xwhyc CJX yiclear adsafe
@@ -10,6 +10,8 @@
 @@||btrace.video.qq.com/kvcollect$domain=post.mp.qq.com
 @@||images.sohu.com/cs/$domain=fmdisk.com
 @@||v.blog.sohu.com/dostat.do?*&n=videoList_vids&$script
+@@||btrace.video.qq.com/kvcollect$domain=v.qq.com
+@@||imgcache.qq.com/qqlive/*
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
@@ -5717,8 +5719,6 @@ _zag_cookie.
 ||9553.com/otherhtml/
 ||96.43.97.243^
 ||962.net/show/all.js
-@@||btrace.video.qq.com/kvcollect$domain=v.qq.com
-@@||imgcache.qq.com/qqlive/*
 baidu.com#$#*[style="display:block !important;visibility:visible !important"]{margin:0!important;height: 0 !important;overflow: hidden !important;opacity: 0 !important;pointer-events: none !important;}
 ||962.net/show/all_$script
 ||962.net/show/bt.js
@@ -5980,7 +5980,7 @@ baidu.com#$#*[style="display:block !important;visibility:visible !important"]{ma
 ||admaimai.com/inc/adv
 ||admaji.com^$third-party
 ||admartzone.com^$third-party
-||admaster.com.cn^$third-party
+||admaster.com.cn^$third-party,domain=~iqiyi.com
 ||adm-cnzz.net^
 ||admd.yam.com^
 ||admin5.com/a5dao/
@@ -8147,7 +8147,7 @@ baidu.com#$#*[style="display:block !important;visibility:visible !important"]{ma
 ||crmmetrix.fr^$third-party
 ||crmmetrixwris.com^$third-party
 ||crm-vwg.com/tracker/
-||cr-nielsen.com^$third-party
+||cr-nielsen.com^$third-party,domain=~iqiyi.com
 ||crosspixel.net^$third-party
 ||crosswalkmail.com^$third-party
 ||crowdfactory.com/tracker/
@@ -17766,6 +17766,10 @@ http://swf.quanmin.tv/*swf|
 |http://img2.autoimg.cn/admdfs/Adhtmlnet/$image
 |http://ww2.sinaimg.cn/large/$image
 |http://ww4.sinaimg.cn/large/$image
+|http://r3.ykimg.com/05100000580584*
+|http://r1.ykimg.com/0510000053B280E46737B35DBC03A6EF
+|http://r2.ykimg.com/051000005417E43D6737B32E06066ABA
+||e.stat.ykimg.com/
 !x  -------------------------------------- ordinary rules ---------------------------------------------
 !x  -------------------------------------- replace rules ---------------------------------------------
 ||qiushibaike.com/$s@<div id="sidebar" class="sidebar">@<div style="display:none">@
@@ -17797,8 +17801,6 @@ http://swf.quanmin.tv/*swf|
 ||mp4ba.com$s@<div class="box" style="overflow:hidden;">@<div class="box" style="display:none">@
 ||baidu.com$s@<div class="thread_recommend thread-recommend">@<div style="display:none">@
 ||baidu.com$s@<div id="pb_adbanner" class="l_banner banner_wangmeng_theme">@<div style="display:none">@
-||qq.com$s@<div class="layout mt12">@<div style="display:none">@
-||qq.com$s@<div class="layout" bosszone="zq_ab">@<div style="display:none">@
 ||feng.com$s@style="display: block;background:#fff;box-shadow: 0 1px 3px #BCBCBC;margin: 0 auto 10px;padding: 10px 0 5px@style="display:none@
 ||feng.com$s@<div class="wrap fl_row">@<div style="display:none">@
 ||sohu.com$s@<div class="TurnAD10">@<div style="display:none">@
@@ -17817,5 +17819,6 @@ http://swf.quanmin.tv/*swf|
 ||163.com$s@<div class="post_area clearfix">@<div style="display:none">@
 ||163.com$s@<div class="gg200x300">@<div style="display:none">@
 ||lanseshuba.com$s@<script type="text/javascript" src="http://tu.jstztk.com:8081/*/*></script>@
+||youku.com$s@<div id="module_basic_double11">@<div style="display:none">@
 ||baidu.com$s@style="width: 100%;height: 100%;" alt="Ìù?ÉÍ¼Æ?@style="width: 0%;height: 0%;" alt="Ìù°ÉÍ¼Æ¬"@
 !x  -------------------------------------- replace rules ---------------------------------------------
