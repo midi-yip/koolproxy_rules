@@ -1,5 +1,5 @@
-!x  -----update[rules]:  2016-10-26 18:51 --- by houzi /zt
-!x  -----update[video]:  2016-10-28 22:18 --- by houzi /zt
+!x  -----update[rules]:  2016-10-26 22:28 --- by houzi /zt
+!x  -----update[video]:  2016-10-26 22:13 --- by houzi /zt
 !x  -----base: adblock <koolproxy dedicated>
 !x  -----thanks: xwhyc CJX yiclear adsafe
 !x  -------------------------------------- white rules ---------------------------------------------
@@ -3766,17 +3766,9 @@
 ||cbber.com$s@<div id="portal_block_2401" class="cl_block_bm block move-span">@<div style="display:none">@
 ||cbber.com$s@<div id="diy2" class="area">@<div style="display:none">@
 ||anywlan.com$s@<div class="bscekvofc_o wp">@<div style="display:none">@
-||autohome.com.cn$s@<div class="row">@<div style="display:none">@
-||autohome.com.cn$s@<div class="row advbox pa-b20">@<div style="display:none">@
-||autohome.com.cn$s@<div class="row  advbox pa-b20">@<div style="display:none">@
-||autohome.com.cn$s@<div class="monkey monkey_box_big">@<div style="display:none">@
 ||mydigit.cn$s@<div class="tac mb5" style="line-height:1;">@<div style="display:none">@
 ||mydigit.cn$s@<div class="tac mb5">@<div style="display:none">@
 ||zdfans.com$s@style="display:inline-block;width:970px;height:90px"@style="display:none
-||autohome.com.cn$s@<div class="monkey monkey_box_big">@<div style="display:none">@
-||autohome.com.cn$s@<div style="position:relative;">@<div style="display:none">@
-||autohome.com.cn$s@<div id="ad_fk_01" style="" data-adparent=".monkey">@<div style="display:none">@
-||autohome.com.cn$s@<div class="monkey">@<div style="display:none">@
 ||163.com$s@<div class="post_area clearfix">@<div style="display:none">@
 ||163.com$s@<div class="gg200x300">@<div style="display:none">@
 ||lanseshuba.com$s@<script type="text/javascript" src="http://tu.jstztk.com:8081/*/*></script>@
