@@ -1,5 +1,5 @@
-!x  -----update[rules]:  2016-10-27 19:29 --- by houzi /zt
-!x  -----update[video]:  2016-10-26 22:13 --- by houzi /zt
+!x  -----update[rules]:  2016-10-26 23:38 --- by houzi /zt
+!x  -----update[video]:  2016-10-25 23:25 --- by houzi /zt
 !x  -----base: adblock <koolproxy dedicated>
 !x  -----thanks: xwhyc CJX yiclear adsafe
 !x  -------------------------------------- white rules ---------------------------------------------
@@ -1431,7 +1431,7 @@
 |http://res.weplay.cn/app/www/templates/videos/js_v2/video_gg_v4.js
 |http://resource.redirect.kukuplay.com/upload/*.flv
 |http://resource.redirect.kukuplay.com/upload/*.swf
-|http://rs.sinajs.cn^
+|http://rs.sinajs.cn^$domain=~sinajs.cn
 |http://s.*.asp?ss=$third-party
 |http://s.*.cn/k-*-$third-party
 |http://s.*.cn/k-*-*-
