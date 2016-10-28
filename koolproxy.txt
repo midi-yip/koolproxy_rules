@@ -1,4 +1,4 @@
-!x  -----update[rules]:  2016-10-28 21:00 --- by houzi /zt
+!x  -----update[rules]:  2016-10-28 22:52 --- by houzi /zt
 !x  -----update[video]:  2016-10-28 19:49 --- by houzi /zt
 !x  -----base: adblock <koolproxy dedicated>
 !x  -----thanks: xwhyc CJX yiclear adsafe
@@ -1580,10 +1580,10 @@
 |http://wuwho.cn
 |http://wvw.grabpo.com/bofangqi/
 |http://ww.xitek.com/idzone/
-|http://ww1.sinaimg.cn/large/d3a48243gw1eel2ppfzawj20k802sdgc.jpg$domain=kiees.cn
-|http://ww2.sinaimg.cn/mw690/006a0xdJgw1ez4t12sbo5j30h802i3yn.jpg$domain=fuliba.net
-|http://ww2.sinaimg.cn/mw690/a6a976a2gw1ee8phmumv5j20h802ijrp.jpg
-|http://ww3.sinaimg.cn/large/ed5e6a1djw1eqklc2eicfj20r802idh3.jpg$image,domain=gaoqing.la
+|http://ww1.sinaimg.cn/large/d3a48243gw1eel2ppfzawj20k802sdgc.jpg$domain=kiees.cn|~d5yuansu.com
+|http://ww2.sinaimg.cn/mw690/006a0xdJgw1ez4t12sbo5j30h802i3yn.jpg$domain=fuliba.net|~d5yuansu.com
+|http://ww2.sinaimg.cn/mw690/a6a976a2gw1ee8phmumv5j20h802ijrp.jpg$domain=~d5yuansu.com
+|http://ww3.sinaimg.cn/large/ed5e6a1djw1eqklc2eicfj20r802idh3.jpg$image,domain=gaoqing.la|~d5yuansu.com
 |http://www.*.com/images/ta1234.js|
 |http://www.00170017.net/Public/dzb_gg.js?
 |http://www.0371zm.com/data/attachment/portal/201
@@ -3020,7 +3020,7 @@
 ||sina.com.cn/iframe/76/$document
 ||sina.com.cn/litong/
 ||sinaimg.cn/bmiddle/$image,domain=dapenti.com
-||sinaimg.cn/large/$domain=11luba.com|www.heitu5.com|d5yuansu.com|htai.me
+||sinaimg.cn/large/$domain=11luba.com|www.heitu5.com|~d5yuansu.com|htai.me
 ||sinaimg.cn/large/$image,domain=fulidh.org
 ||sinaimg.cn/large/005S1G8
 ||sinaimg.cn/large/996d0f17gw1eot3$domain=www.btago.com
@@ -3616,6 +3616,11 @@
 |http://d5.sina.com.cn^$script,image,document,object
 |http://cdn.read.html5.qq.com/image?imageUrl=http%3A%2F%2Fpgdt%2Egtimg%2Ecn
 |http://*.com/view/youkuvip/*ad.gif|$image
+|http://img.jb51.net/downjs/$script
+|http://img.jb51.net/js/$script
+|http://m.jb51.net/skin/mobile/js/$script
+|http://sc.jb51.net/js/ggtop.js$script
+|http://sc.jb51.net/js/tjhd.js$script
 !x  -------------------------------------- replace rules ---------------------------------------------
 ||firefox.news.cn$s@height="305" frameborder="0"@height="200" frameborder="0"@
 ||firefox.163.com$s@height="305" frameborder="0"@height="200" frameborder="0"@
