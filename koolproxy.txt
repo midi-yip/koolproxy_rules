@@ -1,5 +1,5 @@
-!x  -----update[rules]:  2016-10-26 23:38 --- by houzi /zt
-!x  -----update[video]:  2016-10-25 23:25 --- by houzi /zt
+!x  -----update[rules]:  2016-10-28 19:00 --- by houzi /zt
+!x  -----update[video]:  2016-10-28 19:49 --- by houzi /zt
 !x  -----base: adblock <koolproxy dedicated>
 !x  -----thanks: xwhyc CJX yiclear adsafe
 !x  -------------------------------------- white rules ---------------------------------------------
@@ -8,6 +8,7 @@
 @@|http://$domain=meishichina.com|vip.xunlei.com|lixian.xunlei.com|www.vmall.com|www.1688.com|www.mm111.net|jifen.qq.com
 @@|http://$domain=taobao.com|taobao.org|alipay.com|suning.com|51buy.com|ct10000.com|etao.com|hitao.com|paipai.com|189.cn
 @@|http://$domain=banggo.com|pili.com.tw|yunhou.com|voicecloud.cn|xunfei.cn
+@@||data.video.qiyi.com
 @@||wrating.com/a1.js$domain=tudou.com|ynet.com
 @@|http://de.as.pptv.com/crossdomain.xml
 @@||a.ads.cn.miaozhen.com^$domain=youku.com
@@ -3758,11 +3759,12 @@
 |http://www.bitebt.com$s@<div class="a_fl a_cb"@<div style="display:none"@
 |http://www.mp4ba.com$s@<div class="clear text_center"@<div style="display:none"@
 |http://www.mp4ba.com$s@<tr id="ad_list_middle"@<tr style="display:none"@
-|http://www.iqiyi.com/dianshiju$s@<div id="1000000000123" class="ad-wrapper clearfix">@<div style="display:none">@
+||mp4ba.com$s@<script type="text/javascript" src="http://*.qucaigg.com:8080/*></script>@
+!|http://www.iqiyi.com/dianshiju$s@<div id="1000000000123" class="ad-wrapper clearfix">@<div style="display:none">@
 |http://www.ku6.com$s@<div class="bottom-ad clear-float">@<div style="display:none">@
 |http://www.d5yuansu.com$s@<div style="background:#fff;margin:0 auto;width: 1018px;border:1px dashed #666;overflow: hidden;">@<div style="display:none">@
 |http://www.d5yuansu.com$s@<div class="" align="center" style="background:#fff;">@<div style="display:none">@
-|http://www.iqiyi.com$s@<div id="leftad" class="leftAd mt25">@<div style="display:none">@
+!|http://www.iqiyi.com$s@<div id="leftad" class="leftAd mt25">@<div style="display:none">@
 ||cbber.com$s@<div id="portal_block_2401" class="cl_block_bm block move-span">@<div style="display:none">@
 ||cbber.com$s@<div id="diy2" class="area">@<div style="display:none">@
 ||anywlan.com$s@<div class="bscekvofc_o wp">@<div style="display:none">@
