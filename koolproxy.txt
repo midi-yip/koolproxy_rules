@@ -1,4 +1,4 @@
-!x  -----update[rules]:  2016-10-28 19:00 --- by houzi /zt
+!x  -----update[rules]:  2016-10-28 21:00 --- by houzi /zt
 !x  -----update[video]:  2016-10-28 19:49 --- by houzi /zt
 !x  -----base: adblock <koolproxy dedicated>
 !x  -----thanks: xwhyc CJX yiclear adsafe
@@ -30,7 +30,6 @@
 !@@||atm.youku.com/v*?vip=
 @@|http://17173im.qtmojo.com/main/s?user=||17173_video&
 @@|http://hc.yinyuetai.com/partner/yyt/
-@@|http://image.res.hunantv.com/mediafiles/creative/u3154/
 @@|http://v.aty.sohu.com/v$object-subrequest
 @@|http://js.gomein.net.cn/
 @@|http://css.gomein.net.cn/
@@ -231,6 +230,7 @@
 @@|http://i2.bahamut.com.tw/JS/ad/animeVideo.js
 @@|http://9zvip.net/wp-content/plugins/detect-adblock/js/ads.js
 @@|http://www.qitete.com/sp/uaredirect.js
+@@|http://image.res.hunantv.com/mediafiles/creative/u3154/
 !x  -------------------------------------- white rules ---------------------------------------------
 |http:/*/7mad.$image
 |http:/*/adPicture$image
@@ -3564,7 +3564,7 @@
 |http://r1.ykimg.com/material/0A03/201610/*/*/1300-100.jpg
 |http://v.pic.fastapi.net/upload/2016/08/c73d84c90d9c4fd0075a71d08991f270.jpg
 ||irs01.com/$third-party
-|http://union$third-party,domain=~baidu.com
+|http://*.com/union/$script
 /pos?act=dur$object-subrequest,domain=tudou.com
 ||pos.baidu.com^
 ||youle55.com^$third-party
@@ -3585,6 +3585,37 @@
 |http://r3.ykimg.com/051000005805849667BC3D0EEC04B1F9
 |http://r4.ykimg.com/051000005805BF2E67BC3D14C8008152
 |http://qr.youku.com/qr?sc=video_play&amp;*
+||a.union.mi.com$third-party,domain=~www.baidu.com
+|http://dup.baidustatic.com/painter/union/slide.js$script
+|http://*/templets/default/js/union.js$script
+|http://*/js/union/$script
+|http://*.com/union/$script
+||tietuku.com$image,domain=potplayer.org|cnmkv.com|qqjishu.net|souxue8.net|totuwo.com|xiaodaoyl.com|wangyesifu.com
+||uu9090.net/adcg/|$image
+||images.sohu.com/ytv/*.jpg|$image
+||cncrk.com/505/$script,document,image
+||aimg.shangdu.com/$script,image
+|http://www.qjbxw.com/source/plugin/drk_ledadv/image/drk_marquee3.js$script
+|http://www.soft711.com/2013/$script,image
+|http://www.flvcd.com/image/partner/soufun_468.gif$image
+|http://www.flvcd.com/image/partner/soufun_468.gif$image
+|http://www.azhibo.com/images/201*/ued1-bg$image
+|http://www.3987.com/images/pptv.gif$image
+|http://ww3.sinaimg.cn/large/70917826gw1ea0w307d5jg20qq02smy0.gif$image
+|http://static.atm.youku.com/idea/201*.jpg$image
+|http://pages.ctrip.com/amd/201*/qu728x90.jpg$image
+|http://ossweb-img.qq.com/images/lol/web201310/lolad0908.jpg$image
+|http://image.uc.cn/s/uae/g/0s/$script
+|http://image.yanqing888.me/script/Read_Fee_Bottom.js$script
+|http://image.yanqing888.me/script/fanye$script
+|http://image.res.hunantv.com/mediafiles/creative/
+|http://d1.sina.com.cn^$script,image,document,object
+|http://d2.sina.com.cn^$script,image,document,object
+|http://d3.sina.com.cn^$script,image,document,object
+|http://d4.sina.com.cn^$script,image,document,object
+|http://d5.sina.com.cn^$script,image,document,object
+|http://cdn.read.html5.qq.com/image?imageUrl=http%3A%2F%2Fpgdt%2Egtimg%2Ecn
+|http://*.com/view/youkuvip/*ad.gif|$image
 !x  -------------------------------------- replace rules ---------------------------------------------
 ||firefox.news.cn$s@height="305" frameborder="0"@height="200" frameborder="0"@
 ||firefox.163.com$s@height="305" frameborder="0"@height="200" frameborder="0"@
@@ -3709,7 +3740,6 @@
 |http://www.remenxs.com/images/book.js$s@//MLAD*tanx_s,tanx_h.firstChild);</script>");@@
 |http://www.teteyu.com/tpl/*/js/play$s@var loadTime=15000;@var loadTime=0;@
 |http://www.tianshui.com.cn/*.htm$s@height=290@@
-|http://www.xxdm.org/js/union/tiepian.shtml$s@var CountSec=?;@var CountSec=1;@
 |http://www.yczbb.com/baike/*.html$s@window.setInterval("run();", 1000);@window.setInterval("run();", 0);@
 |http://www.yypde.com$s@<script src="http://js.csad.cc:99/page/*"></script>@@
 |http://y.baidu.com/top$s@<script>var lowBrowser = true;</script><![endif]--><style type="text/css">div#pb_adbanner,*</head>@<script>var lowBrowser = true;</script><![endif]--></head>@
