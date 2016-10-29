@@ -1,4 +1,4 @@
-!x  -----update[rules]:  2016-10-28 22:52 --- by houzi /zt
+!x  -----update[rules]:  2016-10-28 23:36 --- by houzi /zt
 !x  -----update[video]:  2016-10-28 19:49 --- by houzi /zt
 !x  -----base: adblock <koolproxy dedicated>
 !x  -----thanks: xwhyc CJX yiclear adsafe
@@ -231,6 +231,10 @@
 @@|http://9zvip.net/wp-content/plugins/detect-adblock/js/ads.js
 @@|http://www.qitete.com/sp/uaredirect.js
 @@|http://image.res.hunantv.com/mediafiles/creative/u3154/
+@@|http://*/gad/$domain=uu.163.com
+@@|http://account.bnet.163.com/js/login.js$script
+@@|http://g.163.com/crossdomain.xml
+@@|http://g.163.com/r?site=netease&affiliate=video&cat=paike&type=tiepian
 !x  -------------------------------------- white rules ---------------------------------------------
 |http:/*/7mad.$image
 |http:/*/adPicture$image
@@ -3621,6 +3625,14 @@
 |http://m.jb51.net/skin/mobile/js/$script
 |http://sc.jb51.net/js/ggtop.js$script
 |http://sc.jb51.net/js/tjhd.js$script
+||33.autohome.com.cn^$script
+|http://www.epinv.com/wp-content/themes/ep/tu/$script
+|http://www.dytt8.net/js2/$script
+|http://www.dy2018.com/dianyq/$script
+|http://a.game.163.com/fz/interface/frontend/fz.do?pos=tongyong
+|http://blog.163.com/pub/newIndex/blog_topic_advertise.html?t=
+|http://cdn.caipiao.163.com/caipiao/js2/popularize/hello.js^
+|http://g.163.com
 !x  -------------------------------------- replace rules ---------------------------------------------
 ||firefox.news.cn$s@height="305" frameborder="0"@height="200" frameborder="0"@
 ||firefox.163.com$s@height="305" frameborder="0"@height="200" frameborder="0"@
@@ -3806,8 +3818,6 @@
 ||mydigit.cn$s@<div class="tac mb5" style="line-height:1;">@<div style="display:none">@
 ||mydigit.cn$s@<div class="tac mb5">@<div style="display:none">@
 ||zdfans.com$s@style="display:inline-block;width:970px;height:90px"@style="display:none
-||163.com$s@<div class="post_area clearfix">@<div style="display:none">@
-||163.com$s@<div class="gg200x300">@<div style="display:none">@
 ||lanseshuba.com$s@<script type="text/javascript" src="http://tu.jstztk.com:8081/*/*></script>@
 ||sohu.com$s@<div class="TurnAD10">@<div style="display:none">@
 ||sohu.com$s@<div class="TurnAD11">@<div style="display:none">@
@@ -3817,6 +3827,8 @@
 ||sohu.com$s@<div id="ad_O">@<div style="display:none">@
 ||sohu.com$s@<div id="ad_G">@<div style="display:none">@
 ||sohu.com$s@<div class="m_ad m_ad_full">@<div style="display:none">@
+|http://club.m.autohome.com.cn/$s@display: block!important;@display: none!important;@
+|http://www.dy2018.com/$s@<script type="text/javascript">if(goPAGE()=="*)}</script>@@
 !x  -------------------------------------- replace rules ---------------------------------------------
 !x  -------------------------------------- css rules ---------------------------------------------
 !x  -------------------------------------- css rules ---------------------------------------------
