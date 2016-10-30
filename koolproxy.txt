@@ -1,5 +1,5 @@
-!x  -----update[rules]:  2016-10-28 23:36 --- by houzi /zt
-!x  -----update[video]:  2016-10-28 19:49 --- by houzi /zt
+!x  -----update[rules]:  2016-10-30 11:56 --- by houzi /zt
+!x  -----update[video]:  2016-10-30 11:58 --- by houzi /zt
 !x  -----base: adblock <koolproxy dedicated>
 !x  -----thanks: xwhyc CJX yiclear adsafe
 !x  -------------------------------------- white rules ---------------------------------------------
@@ -22,7 +22,6 @@
 @@||sinaimg.cn/mw1024/$image
 @@||sinaimg.cn/large/$image
 @@||c.wrating.com/a1.js$domain=tudou.com
-@@/view.php?what=zone:93&$domain=feng.com
 @@|http://www.cnbeta.com/
 @@|http://ad.api.3g.youku.com/adv?dprm=*&device_type=
 @@|http://luck.v1.cn/adxml.php?zoneid=922
@@ -3550,10 +3549,7 @@
 ||rec.g.163.com/kaolaad/api/smartad/rec.s?type=750x100&location=1&site=netease&affiliate=homepage&cat=homepage&uuid=d6036ced1bb5400cb69dd6d4c94d68ce$domain=163.com
 ||img1.cache.netease.com/f2e/www/index2014/images/newsapp0120.png$domain=163.com
 ||g.163.com/r?site=netease&affiliate=homepage&cat=homepage&type=column960x130&location=2$domain=163.com
-||yes1.feng.com^$domain=feng.com
 ||fengbuy.com/recommend-new.
-||yes1.feng.com/view.php?what=zone:42&n=aab2e426$domain=bbs.feng.com
-||yes1.feng.com/view.php?what=zone:43&n=a50b3212$domain=bbs.feng.com
 |http://pic9.qiyipic.com/common/201*.jpg|
 ||msg.71.am^
 ||iqiyi.com/js/pingback/
@@ -3633,6 +3629,7 @@
 |http://blog.163.com/pub/newIndex/blog_topic_advertise.html?t=
 |http://cdn.caipiao.163.com/caipiao/js2/popularize/hello.js^
 |http://g.163.com
+||ku6.com/ku6.gif?
 !x  -------------------------------------- replace rules ---------------------------------------------
 ||firefox.news.cn$s@height="305" frameborder="0"@height="200" frameborder="0"@
 ||firefox.163.com$s@height="305" frameborder="0"@height="200" frameborder="0"@
@@ -3829,6 +3826,7 @@
 ||sohu.com$s@<div class="m_ad m_ad_full">@<div style="display:none">@
 |http://club.m.autohome.com.cn/$s@display: block!important;@display: none!important;@
 |http://www.dy2018.com/$s@<script type="text/javascript">if(goPAGE()=="*)}</script>@@
+|http://bbs.feng.com/$s@<div><script type="text/javascript">*<!-- header start -->@<!-- header start -->@
 !x  -------------------------------------- replace rules ---------------------------------------------
 !x  -------------------------------------- css rules ---------------------------------------------
 !x  -------------------------------------- css rules ---------------------------------------------
