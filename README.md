@@ -18,7 +18,7 @@
 | 虎牙视频 | <http://v.huya.com/> |✓| 跳过 | pass |
 
 ## 已知问题(BUG)
-- letv IOS下会出现视频广告卡秒
-- pptv IOS下会出现闪退
+- <del>letv IOS下会出现视频广告卡秒</del>
+- <del>pptv IOS下会出现闪退</del>
 - PC-QQ 导致群共享有些文件下载不了
 - .....
