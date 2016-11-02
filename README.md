@@ -15,6 +15,7 @@
 | 17173视频 | <http://v.17173.com/> |✓| 跳过 | pass |
 | 搜狐视频 | <http://tv.sohu.com/> |✓| 跳过 | pass |
 | 56视频 | <http://www.56.com/> |✓| 跳过 | pass |
+| 虎牙视频 | <http://v.huya.com/> |✓| 跳过 | pass |
 
 ## 已知问题(BUG)
 - letv IOS下会出现视频广告卡秒
