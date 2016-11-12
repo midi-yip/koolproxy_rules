@@ -1,5 +1,5 @@
-!x  -----update[rules]:  2016-11-11 19:58 --- by <houzi> <today2004>
-!x  -----update[video]:  2016-11-10 19:40 --- by <houzi> <today2004>
+!x  -----update[rules]:  2016-11-12 22:12 --- by <houzi> <today2004>
+!x  -----update[video]:  2016-11-12 22:01 --- by <houzi> <today2004>
 !x  -----base: adblock <koolproxy dedicated>
 !x  -----thanks: xwhyc CJX yiclear adsafe
 !x  -------------------------------------- white rules ---------------------------------------------
@@ -324,7 +324,7 @@
 |http://*.com/?q=$domain=torrentkitty.la|diggbt.net|btkitty.biz|btkitty.uno|cishuge.com
 |http://*.com/?q=*|*$third-party
 |http://*.com/?ss=*_*_
-|http://*.com/?uid=*|*|*
+|http://*.com/?uid=*|*|*$domain=~maxthon.com
 |http://*.com/ad-
 |http://*.com/ad.html|
 |http://*.com/ad/$domain=~www.s1979.com|~www.tradelink-ebiz.com|~www.cmbchina.com|~pingan.com|~catalinahub.com|~kaixin001.com|~zyue.com|~www.noahedu.com|~chinahr.com
@@ -1307,8 +1307,6 @@
 |http://liulanmi.com/labs/x/468x60.jpg$image
 |http://liulanmi.com/labs/x/liulanmi2345.jpg$image
 |http://live.win007.com/live.htm
-|http://lives.l.aiseet.atianqi.com/livemsg?
-|http://lives.l.cp81.ott.cibntv.net/livemsg?clip=1&coverid=
 |http://love.chushoushijian.cn$third-party
 |http://luck.v1.cn/adxml.php?zoneid=
 |http://m.*.cc/com.php?*==|$third-party
