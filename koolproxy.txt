@@ -1,5 +1,5 @@
 !x  -----update[rules]:  2016-11-15 21:52 --- by <houzi> <today2004>
-!x  -----update[video]:  2016-11-17 21:03 --- by <houzi> <today2004>
+!x  -----update[video]:  2016-11-18 21:40 --- by <houzi> <today2004>
 !x  -----base: adblock <koolproxy dedicated>
 !x  -----thanks: xwhyc CJX yiclear adsafe
 !x  -------------------------------------- white rules ---------------------------------------------
