@@ -1,5 +1,5 @@
 !x  -----update[rules]:  2016-11-21 18:12 --- by <houzi> <today2004>
-!x  -----update[video]:  2016-11-21 22:34 --- by <houzi> <today2004>
+!x  -----update[video]:  2016-11-21 22:47 --- by <houzi> <today2004>
 !x  -----base: adblock <koolproxy dedicated>
 !x  -----thanks: xwhyc CJX yiclear adsafe
 !x  -------------------------------------- white rules ---------------------------------------------
@@ -1355,7 +1355,7 @@
 |http://mimg.127.net/p/js6/6.0b1601181144/js/p1.js
 |http://misc.yinfu.cc/sid/*.js?ver=
 |http://mixer.cupid.ptqy.gitv.tv/mixer?a=*=qc_100001_100
-|http://mmbiz.qpic.cn/mmbiz/*/640
+!|http://mmbiz.qpic.cn/mmbiz/*/640
 |http://mvads.kugou.com/
 |http://mvip.zhuba8.com/js/mob/bottom.js
 |http://n.gemini.yahoo.com
