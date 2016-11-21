@@ -1,5 +1,5 @@
-!x  -----update[rules]:  2016-11-19 14:12 --- by <houzi> <today2004>
-!x  -----update[video]:  2016-11-19 14:12 --- by <houzi> <today2004>
+!x  -----update[rules]:  2016-11-21 18:12 --- by <houzi> <today2004>
+!x  -----update[video]:  2016-11-21 22:34 --- by <houzi> <today2004>
 !x  -----base: adblock <koolproxy dedicated>
 !x  -----thanks: xwhyc CJX yiclear adsafe
 !x  -------------------------------------- white rules ---------------------------------------------
@@ -8,6 +8,7 @@
 @@|http://$domain=meishichina.com|vip.xunlei.com|lixian.xunlei.com|www.vmall.com|www.1688.com|www.mm111.net|jifen.qq.com
 @@|http://$domain=taobao.com|taobao.org|alipay.com|suning.com|51buy.com|ct10000.com|etao.com|hitao.com|paipai.com|189.cn
 @@|http://$domain=banggo.com|pili.com.tw|yunhou.com|voicecloud.cn|xunfei.cn
+@@||a.v.duowan.com/crossdomain.xml$domain=v.huya.com,third-party
 @@||v.17173.com/advideo/*.mp4
 @@||v.17173.com/advideo/20*.flv
 @@||wrating.com/a1.js$domain=tudou.com|ynet.com
@@ -1337,7 +1338,6 @@
 |http://m.zchot.com/images/4493.jpg
 |http://m0.ifengimg.com/34c4a1d78882290c/2013/0219/aplayer.xml
 |http://mail.tom.com/info/ad/
-|http://market.duowan.com/fodder/
 |http://mat.zdface.com/Controls/ChannelHot/ChannelHotTypeID8ClassID
 |http://mat1.gtimg.com/hb/zxb/tm1.gif$image
 |http://mat1.gtimg.com/news/news/2014ad/
@@ -1409,7 +1409,6 @@
 |http://pro.iweihai.cn/2014/dongfeng/96070.gif
 |http://pro.iweihai.cn/file/club.php?id=
 |http://proxy.90ys.cc/gg.php
-|http://public.duowan.com/s/yuanbao-entrance.js
 |http://push.zhanzhang.baidu.com/push.js
 |http://q.ptbus.com/newdata.ashx?
 |http://qaz.afjlb.com/?q=
@@ -3193,7 +3192,6 @@
 ||vs9158.com
 ||vsnoon.com
 ||vtale.org$third-party
-||vupload.duowan.com
 ||wa.gtimg.com^
 ||wan789.net
 ||wangzhan5.com
@@ -3356,7 +3354,6 @@
 ||yxcpm.com
 ||yxdown.com/open/down_ad_
 ||yy.com/policy/
-||yy.duowan.com/component/
 ||yy32.com
 ||yy58ju.com
 ||yygglm.com$third-party
@@ -3622,7 +3619,6 @@
 ||ku6.com/ku6.gif?
 |http://www.17173.com/if/$script,domain=17173.com
 |http://www.17173.com/if/$script,domain=17173.com
-||www.duowan.com/public/s/market_count.js$script
 |http://dup.baidustatic.com/js/os.js$domain=~coladrive.com
 ||iqiyi.com/common/flashplayer/20160824/pageer.swf?147842*$domain=iqiyi.com
 ||r1.ykimg.com/material/0A03/201611/1104/125100/1300470-2.swf?jsStart=&jsEnd=execHtmlEndCMDfortaobao&url=http://val.atm.youku.com/c?id=9902$domain=youku.com
@@ -3664,7 +3660,6 @@
 ||576tv.com/Api/VideoPlayer/GetXml$s@<ads>/Content/swfs/*.swf|@<ads>@
 ||www.dm456.com/install/loading.html$s@var showTime = 8@var showTime = 0@
 ||www.woxiu.com/xapi/get_pre_config.php$s@[2,1,1,1]@[0,0,0,0]@
-||duowan.com$s@[{"adid":*}]@[]@
 |http://flvserver.duapp.com/player/ckp61/player.xml$s@<flashvars>*</flashvars>@<flashvars>{l->http://flvserver.duapp.com/player/ckp61/vb.png}{d->http://flvserver.duapp.com/player/ckp61/vb.png}{t->0}</flashvars>@
 |http://js.tv.itc.cn/base/plugin/login_$s@i.cookie("fee_status",null,@i.cookie("fee_status",1,@
 |http://upan.so$s@<script src="http://360.safe.go.366safego.com:88/code/400.do" charset="gb2312"></script>@@
