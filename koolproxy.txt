@@ -1,5 +1,5 @@
-!x  -----update[rules]:  2016-12-9 18:00 --- by <houzi> <today2004>
-!x  -----update[video]:  2016-12-13 23:19 --- by <houzi> <today2004>
+!x  -----update[rules]:  2016-12-24 23:58 --- by <houzi> <today2004>
+!x  -----update[video]:  2016-12-13 17:49 --- by <houzi> <today2004>
 !x  -----base: adblock <koolproxy dedicated>
 !x  -----thanks: xwhyc CJX yiclear adsafe
 !x  -------------------------------------- white rules ---------------------------------------------
@@ -3834,14 +3834,14 @@
 ||mydigit.cn$s@<div class="tac mb5">@<div style="display:none">@
 ||zdfans.com$s@style="display:inline-block;width:970px;height:90px"@style="display:none
 ||lanseshuba.com$s@<script type="text/javascript" src="http://tu.jstztk.com:8081/*/*></script>@
-||sohu.com$s@<div class="TurnAD10">@<div style="display:none">@
-||sohu.com$s@<div class="TurnAD11">@<div style="display:none">@
-||sohu.com$s@<div id="ad_B">@<div style="display:none">@
-||sohu.com$s@<div id="ad_M">@<div style="display:none">@
-||sohu.com$s@<div id="ad_H">@<div style="display:none">@
-||sohu.com$s@<div id="ad_O">@<div style="display:none">@
-||sohu.com$s@<div id="ad_G">@<div style="display:none">@
-||sohu.com$s@<div class="m_ad m_ad_full">@<div style="display:none">@
+!||sohu.com$s@<div class="TurnAD10">@<div style="display:none">@
+!||sohu.com$s@<div class="TurnAD11">@<div style="display:none">@
+!||sohu.com$s@<div id="ad_B">@<div style="display:none">@
+!||sohu.com$s@<div id="ad_M">@<div style="display:none">@
+!||sohu.com$s@<div id="ad_H">@<div style="display:none">@
+!||sohu.com$s@<div id="ad_O">@<div style="display:none">@
+!||sohu.com$s@<div id="ad_G">@<div style="display:none">@
+!||sohu.com$s@<div class="m_ad m_ad_full">@<div style="display:none">@
 |http://club.m.autohome.com.cn/$s@display: block!important;@display: none!important;@
 |http://www.dy2018.com/$s@<script type="text/javascript">if(goPAGE()=="*)}</script>@@
 |http://bbs.feng.com/$s@<div><script type="text/javascript">*<!-- header start -->@<!-- header start -->@
