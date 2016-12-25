@@ -20,5 +20,5 @@
 ## 已知问题(BUG)
 - <del>letv IOS下会出现视频广告卡秒</del>
 - <del>pptv IOS下会出现闪退</del>
-- PC-QQ 导致群共享有些文件下载不了
+- <del>PC-QQ 导致群共享有些文件下载不了</del>
 - .....
