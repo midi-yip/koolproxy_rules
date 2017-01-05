@@ -1,5 +1,5 @@
-!x  -----update[rules]:  2016-12-24 23:58 --- by <houzi> <today2004>
-!x  -----update[video]:  2016-12-27 12:50 --- by <houzi> <today2004>
+!x  -----update[rules]:  2017-1-5 17:56 --- by <houzi> <today2004>
+!x  -----update[video]:  2016-12-25 18:23 --- by <houzi> <today2004>
 !x  -----base: adblock <koolproxy dedicated>
 !x  -----thanks: xwhyc CJX yiclear adsafe
 !x  -------------------------------------- white rules ---------------------------------------------
@@ -3552,7 +3552,7 @@
 |http://r1.ykimg.com/material/0A03/201610/*/*/1300-100.jpg
 |http://v.pic.fastapi.net/upload/2016/08/c73d84c90d9c4fd0075a71d08991f270.jpg
 ||irs01.com/$third-party
-|http://*.com/union/$script
+|http://*.com/union/$script,domain=~alimama.com|~taobao.com
 /pos?act=dur$object-subrequest,domain=tudou.com
 ||pos.baidu.com^
 ||youle55.com^$third-party
@@ -3577,7 +3577,7 @@
 |http://dup.baidustatic.com/painter/union/slide.js$script
 |http://*/templets/default/js/union.js$script
 |http://*/js/union/$script
-|http://*.com/union/$script
+|http://*.com/union/$script,domain=~alimama.com|~taobao.com
 ||tietuku.com$image,domain=potplayer.org|cnmkv.com|qqjishu.net|souxue8.net|totuwo.com|xiaodaoyl.com|wangyesifu.com
 ||uu9090.net/adcg/|$image
 ||images.sohu.com/ytv/*.jpg|$image
