@@ -1,4 +1,4 @@
-!x  -----update[rules]:  2017-02-6 14:28 --- by <houzi> <today2004> <sadog>
+!x  -----update[rules]:  2017-02-7 00:48 --- by <houzi> <today2004> <sadog>
 !x  -----update[video]:  2017-02-5 16:59 --- by <houzi> <today2004>
 !x  -----base: adblock <koolproxy dedicated>
 !x  -----thanks: xwhyc CJX yiclear adsafe
@@ -3094,7 +3094,7 @@
 ||imgout.ph.126.net^*/950-90.jpg
 ||stat.ws.126.net^
 ||18tzx.com
-|https://l.qq.com/lview?^
+!|https://l.qq.com/lview?^
 |http://api.bilibili.com/x/web-show/res/Query*&pf=0&id=40
 |http://api.bilibili.com/x/web-show/res/loc?callback=jQuery*&pf=0&id=29
 |http://api.bilibili.com/x/web-show/res/loc?callback=jQuery*&pf=0&id=40
