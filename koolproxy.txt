@@ -4319,4 +4319,5 @@ qq.com##body > div:nth-child(27)
 qq.com###contentLayout > div:nth-child(8)
 qq.com##body > div:nth-child(31)
 qq.com###contentLayout > div:nth-child(5)
+|http://www.right.com.cn/forum###hd h2
 !x  -------------------------------------- html rules ---------------------------------------------
