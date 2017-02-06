@@ -1,4 +1,4 @@
-!x  -----update[rules]:  2017-02-5 18:44 --- by <houzi> <today2004>
+!x  -----update[rules]:  2017-02-6 14:28 --- by <houzi> <today2004> <sadog>
 !x  -----update[video]:  2017-02-5 16:59 --- by <houzi> <today2004>
 !x  -----base: adblock <koolproxy dedicated>
 !x  -----thanks: xwhyc CJX yiclear adsafe
@@ -4314,10 +4314,10 @@ dytt.net###_hy_666_
 pcpop.com##body > div.bg2017 > div > div:nth-child(6),body > div.bg2017 > div > div:nth-child(10),body > div.bg2017 > div > div:nth-child(11),.r1,#ad_960_22,#ad_760_21,#ad_760_22,#ad_760_31,#ad_760_32,#ad_760_41,#ad_760_33
 v.17173.com###corner_left
 btbbt.cc,btbtt.co,btbtt.la##.guanggao,div[style="width: 250px; height: 250px; float: right"],.out,[id^="ggDiv"],.wrapper_bg_c
-qq.com##body > div:nth-child(12)
-qq.com##body > div:nth-child(27)
-qq.com###contentLayout > div:nth-child(8)
-qq.com##body > div:nth-child(31)
-qq.com###contentLayout > div:nth-child(5)
+|http://www.qq.com##body > div:nth-child(12)
+|http://www.qq.com##body > div:nth-child(27)
+|http://www.qq.com###contentLayout > div:nth-child(8)
+|http://www.qq.com##body > div:nth-child(31)
+|http://www.qq.com###contentLayout > div:nth-child(5)
 |http://www.right.com.cn/forum###hd h2
 !x  -------------------------------------- html rules ---------------------------------------------
