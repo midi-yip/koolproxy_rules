@@ -1,4 +1,4 @@
-!x  -----update[rules]:  2017-02-7 17:10 --- by <houzi> <today2004> <sadog>
+!x  -----update[rules]:  2017-02-8 00:49 --- by <houzi> <today2004> <sadog>
 !x  -----update[video]:  2017-02-7 22:15 --- by <houzi> <today2004>
 !x  -----base: adblock <koolproxy dedicated>
 !x  -----thanks: xwhyc CJX yiclear adsafe
@@ -21,6 +21,7 @@
 @@|http://t3gd.mail.126.com/upxmail/upload?^
 @@||adash.m.taobao.com/rest
 @@||game.qq.com^
+@@||weixin.qq.com
 @@||v.17173.com/advideo/*.mp4
 @@||v.17173.com/advideo/20*.flv
 @@||wrating.com/a1.js$domain=tudou.com|ynet.com
