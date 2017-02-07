@@ -8,7 +8,7 @@
 @@|http://$domain=meishichina.com|vip.xunlei.com|lixian.xunlei.com|www.vmall.com|www.1688.com|www.mm111.net|jifen.qq.com
 @@|http://$domain=taobao.com|taobao.org|alipay.com|suning.com|51buy.com|ct10000.com|etao.com|hitao.com|paipai.com|189.cn
 @@|http://$domain=banggo.com|pili.com.tw|yunhou.com|voicecloud.cn|xunfei.cn
-@@||a.v.duowan.com/crossdomain.xml$domain=v.huya.com,third-party\
+@@||a.v.duowan.com/crossdomain.xml$domain=v.huya.com,third-party
 @@||study.163.com
 @@|http://pingfore.qq.com
 @@|http://ossweb-img.qq.com
