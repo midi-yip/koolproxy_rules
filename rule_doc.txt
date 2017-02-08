@@ -1,0 +1,21 @@
+todo:
+||xx.com			= http[s]://xx.com || http[s]://*.xx.com
+||http://xx.com		= http://xx.com || http://*.xx.com
+||https://xx.com	= https://xx.com || https://*.xx.com
+|xx.com				= http[s]://xx.com
+|http://xx.com		= http://xx.com
+|https://xx.com		= https://xx.com
+xx.com				= http[s]://*xx.com
+http://xx.com		= http://*xx.com
+https://xx.com		= https://*xx.com
+
+now:
+||xx.com			= http://xx.com || http://*.xx.com
+||http://xx.com		= http://xx.com || http://*.xx.com
+||https://xx.com	= https://xx.com || https://*.xx.com
+|xx.com				= http://xx.com
+|http://xx.com		= http://xx.com
+|https://xx.com		= https://xx.com
+xx.com				= http://*xx.com
+http://xx.com		= http://*xx.com
+https://xx.com		= https://xx.com
