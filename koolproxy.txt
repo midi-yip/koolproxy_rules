@@ -4489,7 +4489,7 @@ sohu.com#@#.label-ad
 ||dytt.net###_hy_img_text_
 ||dytt.net###_hy_img_
 ||dytt.net###_hy_666_
-||pcpop.com##body > div.bg2017 > div > div:nth-child(6),body > div.bg2017 > div > div:nth-child(10),body > div.bg2017 > div > div:nth-child(11),.r1,#ad_960_22,#ad_760_21,#ad_760_22,#ad_760_31,#ad_760_32,#ad_760_41,#ad_760_33
+||pcpop.com##body > div:nth-child(7),body > div:nth-child(11),#ad_960_22,#ad_760_21,#ad_760_22,#ad_760_31,#ad_760_32,#ad_760_41,#ad_760_33
 ||v.17173.com###corner_left
 |http://www.qq.com##body > div:nth-child(12)
 |http://www.qq.com##body > div:nth-child(27)
