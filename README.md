@@ -24,8 +24,9 @@
 - .....
 
 ## Thanks to:
-adblock project</br>
-xwhyc CJX</br>
+[adblock project](https://getadblock.com/)</br>
+[xwhyc](https://github.com/adbyby)</br>
+[CJX](https://github.com/cjx82630)</br>
 [project YoukuAntiADs by haoutil](http://bbs.kafan.cn/thread-1509944-1-1.html)</br>
-adsafe</br>
+[adsafe](http://www.newadblock.com/)</br>
 ...</br>
