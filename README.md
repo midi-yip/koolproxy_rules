@@ -24,9 +24,14 @@
 - .....
 
 ## Thanks to:
+### for static rule
 [adblock project](https://getadblock.com/)</br>
 [xwhyc](https://github.com/adbyby)</br>
 [CJX](https://github.com/cjx82630)</br>
+
+### for swf player
+[OpenGG](http://opengg.me/)</br>
 [project YoukuAntiADs by haoutil](http://bbs.kafan.cn/thread-1509944-1-1.html)</br>
+[15536900](http://bbs.kafan.cn/thread-1507278-1-1.html)</br>
 [adsafe](http://www.newadblock.com/)</br>
 ...</br>
