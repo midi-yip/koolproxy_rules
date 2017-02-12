@@ -22,3 +22,10 @@
 - <del>pptv IOS下会出现闪退</del>
 - <del>PC-QQ 导致群共享有些文件下载不了</del>
 - .....
+
+## Thanks to:
+adblock project
+xwhyc CJX
+[project YoukuAntiADs by haoutil](http://bbs.kafan.cn/thread-1509944-1-1.html)
+adsafe
+...
