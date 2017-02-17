@@ -3,10 +3,14 @@
 import codecs
 import sys
 
+reload(sys)
+sys.setdefaultencoding("utf-8")
 s = ""
 with codecs.open(sys.argv[1], "r", encoding="utf-8") as f:
     for line0 in f:
         line = line0.strip()
+        if len(line) == 0:
+            continue
         if line[0] == '!':
             s += line + "\n"
             continue

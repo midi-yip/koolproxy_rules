@@ -22,3 +22,22 @@
 - <del>pptv IOS下会出现闪退</del>
 - <del>PC-QQ 导致群共享有些文件下载不了</del>
 - .....
+
+## Thanks to:
+### for static rule
+[adblock project](https://getadblock.com/)</br>
+[xwhyc](https://github.com/adbyby)</br>
+[CJX](https://github.com/cjx82630)</br>
+[yiclear](https://www.yiclear.com)</br>
+[adsafe](http://www.newadblock.com)</br>
+[15536900](https://bitbucket.org/kafan15536900)</br>
+
+## 声明
+部分去视频播放器引用:
+
+[OpenGG](http://opengg.me/)</br>
+[project YoukuAntiADs by haoutil](http://bbs.kafan.cn/thread-1509944-1-1.html)</br>
+[15536900](http://bbs.kafan.cn/thread-1507278-1-1.html)</br>
+[adsafe](http://www.newadblock.com)</br>
+
+...</br>
