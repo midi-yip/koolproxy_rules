@@ -44,8 +44,6 @@
 !  koolporxy支持https过滤功能，但考虑到https过滤的效率问题，目前仅允许非常明确的过滤指令。
 !  未来将逐步开放模糊https的相关语法，与普通语法同步，敬请期待。
 !  ******************************************************************************************
-||freeapen.com##div[class="widget"]
-||freeapen.com##div[class="col-md-6"]
 |http://adserver.juicyads.com/adshow.php?
 abocms.cn##table[style^="width:100%; text-align:center;"]
 |http://g.18tzx.com/click.php?
