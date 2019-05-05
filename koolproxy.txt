@@ -4502,6 +4502,6 @@ sohu.com#@#.label-ad
 ||torrentsearchweb.co##DIV:nth-child(4) > IFRAME:last-child
 ||https://www.youtube.com###header
 ||https://www.youtube.com###feed-pyv-container
-
+img[src="/300x250-2.gif"]
 !x  -------------------------------------- html rules ---------------------------------------------
 
